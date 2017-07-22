@@ -1,9 +1,8 @@
 package ua.anif.sters.contextmenu;
 
-import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;

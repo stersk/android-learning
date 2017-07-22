@@ -1,6 +1,5 @@
 package ua.anif.sters.dynamiclayout2;
 
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.rbRight:
                 btnGravity = Gravity.RIGHT;
                 break;
-        };
+        }
 
         llParams.gravity = btnGravity;
 

@@ -1,6 +1,5 @@
 package ua.anif.sters.calculator;
 
-import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -90,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (value == 0) {
                     Toast.makeText(this, "Не введено значение первого аргумента", Toast.LENGTH_LONG).show();
                     break;
-                };
+                }
 
                 operation = '+';
                 firstArg = value;
@@ -104,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (value == 0) {
                     Toast.makeText(this, "Не введено значение первого аргумента", Toast.LENGTH_LONG).show();
                     break;
-                };
+                }
 
                 operation = '-';
                 firstArg = value;
@@ -132,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (value == 0) {
                     Toast.makeText(this, "Не введено значение первого аргумента", Toast.LENGTH_LONG).show();
                     break;
-                };
+                }
 
                 operation = '/';
                 firstArg = value;
@@ -151,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (value == 0) {
                     Toast.makeText(this, "Не введено значение второго аргумента", Toast.LENGTH_LONG).show();
                     break;
-                };
+                }
 
                 secondArg = value;
 
@@ -168,10 +167,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     case '/':
                         result = firstArg / secondArg;
                         break;
-                };
+                }
 
                 break;
-        };
+        }
 
         textRepresentation = "";
 
@@ -199,7 +198,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (result == 0) {
             setResultRepresentation(textRepresentation);
-            return;
         } else {
             textRepresentation = textRepresentation + " = " + String.valueOf(result);
             setResultRepresentation(textRepresentation);
