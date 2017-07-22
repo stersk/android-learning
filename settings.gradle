@@ -1,0 +1,1 @@
+include ':p0151_contextmenu', ':p0152_contextmenu', ':p0161_dynamyclayout', ':p0171_dynamiclayout2', ':p0181_dynamiclayout3', ':p0191_calculator', ':p0201_animation', ':p0211_twoactivity', ':p0231_oneactivitystate', ':p0241_twoactivitystate', ':p0241_twoactivitystate', ':p0251_intentfilter'

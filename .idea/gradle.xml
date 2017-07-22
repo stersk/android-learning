@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/p0151_contextmenu" />
+            <option value="$PROJECT_DIR$/p0152_contextmenu" />
+            <option value="$PROJECT_DIR$/p0161_dynamyclayout" />
+            <option value="$PROJECT_DIR$/p0171_dynamiclayout2" />
+            <option value="$PROJECT_DIR$/p0181_dynamiclayout3" />
+            <option value="$PROJECT_DIR$/p0191_calculator" />
+            <option value="$PROJECT_DIR$/p0201_animation" />
+            <option value="$PROJECT_DIR$/p0211_twoactivity" />
+            <option value="$PROJECT_DIR$/p0231_oneactivitystate" />
+            <option value="$PROJECT_DIR$/p0241_twoactivitystate" />
+            <option value="$PROJECT_DIR$/p0251_intentfilter" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

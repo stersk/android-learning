@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent filter</string>
+    <string name="title_activity_date">DateActivity</string>
+</resources>

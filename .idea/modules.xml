@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0151_contextmenu/p0151_contextmenu.iml" filepath="$PROJECT_DIR$/p0151_contextmenu/p0151_contextmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0152_contextmenu/p0152_contextmenu.iml" filepath="$PROJECT_DIR$/p0152_contextmenu/p0152_contextmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0161_dynamyclayout/p0161_dynamyclayout.iml" filepath="$PROJECT_DIR$/p0161_dynamyclayout/p0161_dynamyclayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0171_dynamiclayout2/p0171_dynamiclayout2.iml" filepath="$PROJECT_DIR$/p0171_dynamiclayout2/p0171_dynamiclayout2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0181_dynamiclayout3/p0181_dynamiclayout3.iml" filepath="$PROJECT_DIR$/p0181_dynamiclayout3/p0181_dynamiclayout3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0191_calculator/p0191_calculator.iml" filepath="$PROJECT_DIR$/p0191_calculator/p0191_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0201_animation/p0201_animation.iml" filepath="$PROJECT_DIR$/p0201_animation/p0201_animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0211_twoactivity/p0211_twoactivity.iml" filepath="$PROJECT_DIR$/p0211_twoactivity/p0211_twoactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0231_oneactivitystate/p0231_oneactivitystate.iml" filepath="$PROJECT_DIR$/p0231_oneactivitystate/p0231_oneactivitystate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0241_twoactivitystate/p0241_twoactivitystate.iml" filepath="$PROJECT_DIR$/p0241_twoactivitystate/p0241_twoactivitystate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0251_intentfilter/p0251_intentfilter.iml" filepath="$PROJECT_DIR$/p0251_intentfilter/p0251_intentfilter.iml" />
+    </modules>
+  </component>
+</project>
