@@ -13,7 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0211_twoactivity/p0211_twoactivity.iml" filepath="$PROJECT_DIR$/p0211_twoactivity/p0211_twoactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0231_oneactivitystate/p0231_oneactivitystate.iml" filepath="$PROJECT_DIR$/p0231_oneactivitystate/p0231_oneactivitystate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0241_twoactivitystate/p0241_twoactivitystate.iml" filepath="$PROJECT_DIR$/p0241_twoactivitystate/p0241_twoactivitystate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0251_intentfilter/p0251_intentfilter.iml" filepath="$PROJECT_DIR$/p0251_intentfilter/p0251_intentfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0261_intentfilter/p0261_intentfilter.iml" filepath="$PROJECT_DIR$/p0261_intentfilter/p0261_intentfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0271_getintentaction/p0271_getintentaction.iml" filepath="$PROJECT_DIR$/p0271_getintentaction/p0271_getintentaction.iml" />
     </modules>
   </component>
 </project>

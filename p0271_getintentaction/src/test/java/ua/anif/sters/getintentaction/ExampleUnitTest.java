@@ -1,4 +1,4 @@
-package ua.anif.sters.intentfilter;
+package ua.anif.sters.getintentaction;
 
 import org.junit.Test;
 
