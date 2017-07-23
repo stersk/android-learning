@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0261_intentfilter/p0261_intentfilter.iml" filepath="$PROJECT_DIR$/p0261_intentfilter/p0261_intentfilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0271_getintentaction/p0271_getintentaction.iml" filepath="$PROJECT_DIR$/p0271_getintentaction/p0271_getintentaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" filepath="$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" filepath="$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" />
     </modules>
   </component>
 </project>
