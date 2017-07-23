@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         float value;
         String textRepresentation;
 
-        if (result == 0 && teInputValue.getText().toString() != "") {
+        if (result == 0 && teInputValue.getText().toString().equalsIgnoreCase("")) {
             value = Float.parseFloat(teInputValue.getText().toString());
         } else {
             value = result;
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (value == 0) {
                     Toast.makeText(this, "Не введено значение первого аргумента", Toast.LENGTH_LONG).show();
                     break;
-                };
+                }
 
                 operation = '*';
                 secondArg = 0;
