@@ -19,18 +19,23 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_input);
 
         btnOk = (Button) findViewById(R.id.btnOk);
+        btnOk.setOnClickListener(this);
+
         etName = (EditText) findViewById(R.id.etName);
         etName.setText("");
     }
 
     @Override
     public void onClick(View view) {
-        String name = (String) etName.getText().toString();
+        String name = etName.getText().toString();
 
         if (name.equalsIgnoreCase("")) {
             Toast.makeText(view.getContext(), "Не введено имя", Toast.LENGTH_LONG).show();
         } else {
             Intent intent = getIntent();
+            intent.putExtra("name", name);
+            setResult(RESULT_OK, intent);
+            finish();
         }
     }
 }

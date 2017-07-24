@@ -19,11 +19,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tvName = (TextView) findViewById(R.id.tvName);
         btnOpenInput = (Button) findViewById(R.id.btnOpenInput);
+        btnOpenInput.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         Intent intent = new Intent(view.getContext(), InputActivity.class);
         startActivityForResult(intent, 1);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        tvName.setText(data.getStringExtra("name"));
     }
 }
