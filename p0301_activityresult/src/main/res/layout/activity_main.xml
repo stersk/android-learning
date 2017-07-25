@@ -16,6 +16,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1.31"
             android:width="40dp"
+            android:gravity="start"
             android:text="Тестовый текст"
             android:textAlignment="viewStart"
             android:textSize="18sp" />

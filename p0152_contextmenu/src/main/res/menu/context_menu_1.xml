@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:id="@+id/group1">
-        <item android:id="@+id/color_red" android:title="Червоний"></item>
-        <item android:id="@+id/color_green" android:title="Зелений"></item>
-        <item android:id="@+id/color_blue" android:title="Синій"></item>
+        <item
+            android:id="@+id/color_red"
+            android:title="Червоний" />
+        <item
+            android:id="@+id/color_green"
+            android:title="Зелений" />
+        <item
+            android:id="@+id/color_blue"
+            android:title="Синій" />
     </group>
 </menu>

@@ -8,6 +8,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/p0031_firstproject" />
+            <option value="$PROJECT_DIR$/p0041_basicviews" />
+            <option value="$PROJECT_DIR$/p0051_layoutfiles" />
+            <option value="$PROJECT_DIR$/p0061_layouts" />
+            <option value="$PROJECT_DIR$/p0071_gravity" />
+            <option value="$PROJECT_DIR$/p0081_viewbyid" />
+            <option value="$PROJECT_DIR$/p0091_onbuttonclick" />
+            <option value="$PROJECT_DIR$/p0101_listener" />
+            <option value="$PROJECT_DIR$/p0111_resources" />
+            <option value="$PROJECT_DIR$/p0121_logandmessages" />
+            <option value="$PROJECT_DIR$/p0131_menusimple" />
+            <option value="$PROJECT_DIR$/p0141_menuadvanced" />
+            <option value="$PROJECT_DIR$/p0142_menuadvancedviaresources" />
             <option value="$PROJECT_DIR$/p0151_contextmenu" />
             <option value="$PROJECT_DIR$/p0152_contextmenu" />
             <option value="$PROJECT_DIR$/p0161_dynamyclayout" />

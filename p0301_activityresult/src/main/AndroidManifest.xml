@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlignPickerActivity" />
-        <activity android:name=".ColorPickerActivity"></activity>
+        <activity android:name=".ColorPickerActivity" />
     </application>
 
 </manifest>

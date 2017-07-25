@@ -46,7 +46,7 @@
             android:id="@+id/btnCreate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create"></Button>
+            android:text="Create" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
