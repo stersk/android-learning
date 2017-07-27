@@ -3,6 +3,7 @@ package ua.anif.sters.activityresult;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -33,17 +34,17 @@ public class AlignPickerActivity extends AppCompatActivity implements View.OnCli
         int alligment = 0;
         switch (view.getId()) {
             case R.id.btnAlignOnLeft:
-                alligment = TextView.TEXT_ALIGNMENT_TEXT_START;
+                alligment = Gravity.START;
                 break;
             case R.id.btnAlignOnCenter:
-                alligment = TextView.TEXT_ALIGNMENT_CENTER;
+                alligment = Gravity.CENTER;
                 break;
             case R.id.btnAlignOnRight:
-                alligment = TextView.TEXT_ALIGNMENT_TEXT_END;
+                alligment = Gravity.END;
                 break;
         }
 
-        intent.putExtra("alligment", alligment);
+        intent.putExtra("align", alligment);
         setResult(RESULT_OK, intent);
         finish();
     }
