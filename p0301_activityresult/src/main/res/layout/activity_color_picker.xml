@@ -5,11 +5,11 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Выравнивание:"
+        android:text="Цвет"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="24sp"
@@ -22,25 +22,25 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnAlignOnLeft"
+            android:id="@+id/btnColorRed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Слева" />
+            android:text="Красный" />
 
         <Button
-            android:id="@+id/btnAlignOnCenter"
+            android:id="@+id/btnColorBlue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="По центру" />
+            android:text="Синий" />
 
         <Button
-            android:id="@+id/btnAlignOnRight"
+            android:id="@+id/btnColorGreen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Справа" />
+            android:text="Зеленый" />
     </LinearLayout>
 
 </LinearLayout>
