@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-learning.iml" filepath="$PROJECT_DIR$/android-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0031_firstproject/p0031_firstproject.iml" filepath="$PROJECT_DIR$/p0031_firstproject/p0031_firstproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0041_basicviews/p0041_basicviews.iml" filepath="$PROJECT_DIR$/p0041_basicviews/p0041_basicviews.iml" />

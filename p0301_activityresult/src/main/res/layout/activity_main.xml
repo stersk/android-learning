@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="fill_parent"
     android:orientation="vertical">
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Тестовый текст"
+        android:textSize="20sp">
+    </TextView>
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnPickColor"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.31"
-            android:width="40dp"
-            android:gravity="start"
-            android:text="Тестовый текст"
-            android:textAlignment="viewStart"
-            android:textSize="18sp" />
-
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Выбрать цвет">
+        </Button>
+        <Button
+            android:id="@+id/btnPickAlign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Выбрать выравнивание">
+        </Button>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnPickColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Выбрать цвет" />
-
-    <Button
-        android:id="@+id/btnPickAlign"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Выбрать выравнивание" />
-
 </LinearLayout>
 

@@ -34,13 +34,13 @@ public class AlignPickerActivity extends AppCompatActivity implements View.OnCli
         int alligment = 0;
         switch (view.getId()) {
             case R.id.btnAlignOnLeft:
-                alligment = Gravity.START;
+                alligment = Gravity.LEFT;
                 break;
             case R.id.btnAlignOnCenter:
                 alligment = Gravity.CENTER;
                 break;
             case R.id.btnAlignOnRight:
-                alligment = Gravity.END;
+                alligment = Gravity.RIGHT;
                 break;
         }
 

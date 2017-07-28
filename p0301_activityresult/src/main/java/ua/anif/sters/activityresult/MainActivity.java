@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnColor = (Button) findViewById(R.id.btnPickColor);
         btnAlign = (Button) findViewById(R.id.btnPickAlign);
-        text = (TextView) findViewById(R.id.btnPickAlign);
+        text = (TextView) findViewById(R.id.textView);
 
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
@@ -41,17 +41,23 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+
+        btnColor.setOnClickListener(onClickListener);
+        btnAlign.setOnClickListener(onClickListener);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode) {
-            case 1:
-                text.setGravity(data.getIntExtra("align", 0));
-                break;
-            case 2:
-                text.setTextColor(data.getIntExtra("color", 0));
-                break;
+
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case 1:
+                    text.setGravity(data.getIntExtra("align", 0));
+                    break;
+                case 2:
+                    text.setTextColor(data.getIntExtra("color", 0));
+                    break;
+            }
         }
     }
 }
