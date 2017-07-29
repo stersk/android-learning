@@ -3,7 +3,7 @@ package ua.anif.sters.activityresult;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -53,11 +53,15 @@ public class MainActivity extends AppCompatActivity {
             switch (requestCode) {
                 case 1:
                     text.setGravity(data.getIntExtra("align", 0));
+                    Log.d("RESULT", "Result: OK, Align" + String.valueOf(data.getIntExtra("align", 0)));
                     break;
                 case 2:
                     text.setTextColor(data.getIntExtra("color", 0));
+                    Log.d("RESULT", "Result: OK, Color" + String.valueOf(data.getIntExtra("color", 0)));
                     break;
             }
+        } else {
+            Log.d("RESULT", "Result: " + String.valueOf(resultCode));
         }
     }
 }
