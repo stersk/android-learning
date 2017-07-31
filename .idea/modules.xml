@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" filepath="$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" filepath="$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0301_activityresult/p0301_activityresult.iml" filepath="$PROJECT_DIR$/p0301_activityresult/p0301_activityresult.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" filepath="$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" />
     </modules>
   </component>
 </project>
