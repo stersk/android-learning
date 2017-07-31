@@ -31,9 +31,10 @@
       <module fileurl="file://$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" filepath="$PROJECT_DIR$/p0281_intentextras/p0281_intentextras.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" filepath="$PROJECT_DIR$/p0291_simpleactivityresult/p0291_simpleactivityresult.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0301_activityresult/p0301_activityresult.iml" filepath="$PROJECT_DIR$/p0301_activityresult/p0301_activityresult.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" filepath="$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0311_simpleintents/p0311_simpleintents.iml" filepath="$PROJECT_DIR$/p0311_simpleintents/p0311_simpleintents.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0321_simplebrowser/p0321_simplebrowser.iml" filepath="$PROJECT_DIR$/p0321_simplebrowser/p0321_simplebrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" filepath="$PROJECT_DIR$/p0331_sharedpreferences/p0331_sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0341_simplemysqllite/p0341_simplemysqllite.iml" filepath="$PROJECT_DIR$/p0341_simplemysqllite/p0341_simplemysqllite.iml" />
     </modules>
   </component>
 </project>
