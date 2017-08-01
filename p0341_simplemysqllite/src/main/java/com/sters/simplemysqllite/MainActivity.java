@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.os.MessageQueue;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,8 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        openDbHelper = new DBOpenHelper(this);
-
+        openDbHelper = new DBOpenHelper(this);
 
         etName = (EditText) findViewById(R.id.etName);
         etMail = (EditText) findViewById(R.id.etMail);
@@ -67,10 +65,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d(LOG_TAG, "--- Очистка данных ---");
 
                 writebleDb = openDbHelper.getWritableDatabase();
-                writebleDb.delete(DB_NAME, null, null);
+                int clearedRowsCount = writebleDb.delete(DB_NAME, null, null);
                 writebleDb.close();
 
-                Log.d(LOG_TAG, "--- Очистка данных произведена ---");
+                Log.d(LOG_TAG, "--- Очистка данных произведена (очищено " + String.valueOf(clearedRowsCount) + " строк) ---");
 
                 break;
 
@@ -79,7 +77,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 writebleDb = openDbHelper.getReadableDatabase();
                 Cursor dataCursor = writebleDb.query(DB_NAME, null, null, null ,null ,null, null);
+                if (dataCursor.moveToFirst()) {
+                    int indexId = dataCursor.getColumnIndex("id");
+                    int indexName = dataCursor.getColumnIndex("name");
+                    int indexMail = dataCursor.getColumnIndex("email");
+
+                    do {
+                        Log.d(LOG_TAG, "-------------------------------------------------------------");
+                        Log.d(LOG_TAG, " id - " + String.valueOf(dataCursor.getInt(indexId)) + "----");
+                        Log.d(LOG_TAG, " name - " + String.valueOf(dataCursor.getString(indexName)) + "----");
+                        Log.d(LOG_TAG, " e-mail - " + String.valueOf(dataCursor.getString(indexMail)) + "----");
+                    } while (
+                        dataCursor.moveToNext()
+                    );
+
+                    Log.d(LOG_TAG, "-------------------------------------------------------------");
+                    Log.d(LOG_TAG, "--- Прочитано данных: " + String.valueOf(dataCursor.getCount()) + " строк ---");
+                } else {
+                    Log.d(LOG_TAG, "--- Прочитано данных: 0 строк ---");
+                }
+                dataCursor.close();
+
         }
+        openDbHelper.close();
     }
 
     class DBOpenHelper extends SQLiteOpenHelper {
