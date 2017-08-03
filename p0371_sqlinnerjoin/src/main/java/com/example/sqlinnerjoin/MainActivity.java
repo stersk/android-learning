@@ -42,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
         currentCursor = db.rawQuery("Select people.name as name, position.name as profession, position.salary from people left join position on people.posid = position.id", null);
         readDataFromCursor(currentCursor, "Суммарные данные:");
 
+        String table = "people left join position on people.posid = position.id";
+        String[] fields = new String[]{"people.name as name", "position.name as profession", "position.salary"};
+
+        currentCursor = db.query(true, table, fields, "position.salary > ?", new String[]{"10000"}, null, null, null, null);
+
+        readDataFromCursor(currentCursor, "Суммарные данные (объектная модель, больше 10000:");
+
         db.close();
         dbOpenHelper.close();
     }
