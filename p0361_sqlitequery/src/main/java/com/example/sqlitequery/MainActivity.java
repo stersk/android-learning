@@ -169,7 +169,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "---------------------------------------------");
         Log.d(LOG_TAG, "Всего прочитано " + String.valueOf(cursor.getCount()) + " строк.");
         Log.d(LOG_TAG, "---------------------------------------------");
-
     }
 
     @Override

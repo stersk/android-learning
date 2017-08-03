@@ -41,6 +41,7 @@
             <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
             <option value="$PROJECT_DIR$/p0341_simplemysqllite" />
             <option value="$PROJECT_DIR$/p0361_sqlitequery" />
+            <option value="$PROJECT_DIR$/p0371_sqlinnerjoin" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
