@@ -37,8 +37,9 @@
       <module fileurl="file://$PROJECT_DIR$/p0341_simplemysqllite/p0341_simplemysqllite.iml" filepath="$PROJECT_DIR$/p0341_simplemysqllite/p0341_simplemysqllite.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0361_sqlitequery/p0361_sqlitequery.iml" filepath="$PROJECT_DIR$/p0361_sqlitequery/p0361_sqlitequery.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0371_sqlinnerjoin/p0371_sqlinnerjoin.iml" filepath="$PROJECT_DIR$/p0371_sqlinnerjoin/p0371_sqlinnerjoin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0371_sqlinnerjoin/p0371_sqlinnerjoin.iml" filepath="$PROJECT_DIR$/p0371_sqlinnerjoin/p0371_sqlinnerjoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" filepath="$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" filepath="$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0391_sqliteonupdatedb/p0391_sqliteonupdatedb.iml" filepath="$PROJECT_DIR$/p0391_sqliteonupdatedb/p0391_sqliteonupdatedb.iml" />
     </modules>
   </component>
 </project>

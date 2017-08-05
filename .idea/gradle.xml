@@ -43,6 +43,7 @@
             <option value="$PROJECT_DIR$/p0361_sqlitequery" />
             <option value="$PROJECT_DIR$/p0371_sqlinnerjoin" />
             <option value="$PROJECT_DIR$/p0381_sqlitetransactions" />
+            <option value="$PROJECT_DIR$/p0391_sqliteonupdatedb" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
