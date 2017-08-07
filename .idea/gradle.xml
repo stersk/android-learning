@@ -46,6 +46,8 @@
             <option value="$PROJECT_DIR$/p0391_sqliteonupdatedb" />
             <option value="$PROJECT_DIR$/p0401_layoutinflater" />
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
+            <option value="$PROJECT_DIR$/p0421_simplelist" />
+            <option value="$PROJECT_DIR$/p0431_listsimplechoice" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
