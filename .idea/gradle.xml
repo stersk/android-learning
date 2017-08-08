@@ -49,6 +49,8 @@
             <option value="$PROJECT_DIR$/p0421_simplelist" />
             <option value="$PROJECT_DIR$/p0431_listsimplechoice" />
             <option value="$PROJECT_DIR$/p0441_listsimpleevents" />
+            <option value="$PROJECT_DIR$/p0451_expandablelist" />
+            <option value="$PROJECT_DIR$/p0461_expandablelistevents" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
