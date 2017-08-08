@@ -50,9 +50,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(LOG_TAG, "onGroupClick groupPosition = " + groupPosition +
                         " id = " + id);
                 // блокируем дальнейшую обработку события для группы с позицией 1
-                if (groupPosition == 1) return true;
+                return groupPosition == 1;
 
-                return false;
             }
         });
 
