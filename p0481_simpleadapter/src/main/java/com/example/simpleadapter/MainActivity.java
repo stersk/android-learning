@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         boolean[] checked = { true, false, false, true, false };
         int img = R.mipmap.ic_launcher;
 
-        String[] from = new String[] {ATTRIBUTE_NAME_TEXT, ATTRIBUTE_NAME_CHECKED, ATTRIBUTE_NAME_IMAGE};
-        int[] to = new int[]{R.id.tvText, R.id.cbChecked, R.id.ivImg};
+        String[] from = new String[] {ATTRIBUTE_NAME_TEXT, ATTRIBUTE_NAME_CHECKED, ATTRIBUTE_NAME_IMAGE, ATTRIBUTE_NAME_TEXT};
+        int[] to = new int[]{R.id.tvText, R.id.cbChecked, R.id.ivImg, R.id.cbChecked};
 
         ArrayList<Map<String,Object>> rowsData = new ArrayList<>();
         Map<String,Object> rowData;
