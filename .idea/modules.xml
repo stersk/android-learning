@@ -40,19 +40,13 @@
       <module fileurl="file://$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" filepath="$PROJECT_DIR$/p0381_sqlitetransactions/p0381_sqlitetransactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0391_sqliteonupdatedb/p0391_sqliteonupdatedb.iml" filepath="$PROJECT_DIR$/p0391_sqliteonupdatedb/p0391_sqliteonupdatedb.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0401_layoutinflater/p0401_layoutinflater.iml" filepath="$PROJECT_DIR$/p0401_layoutinflater/p0401_layoutinflater.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0401_layoutinflater/p0401_layoutinflater.iml" filepath="$PROJECT_DIR$/p0401_layoutinflater/p0401_layoutinflater.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0411_layoutinflaterlist/p0411_layoutinflaterlist.iml" filepath="$PROJECT_DIR$/p0411_layoutinflaterlist/p0411_layoutinflaterlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0411_layoutinflaterlist/p0411_layoutinflaterlist.iml" filepath="$PROJECT_DIR$/p0411_layoutinflaterlist/p0411_layoutinflaterlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0421_simplelist/p0421_simplelist.iml" filepath="$PROJECT_DIR$/p0421_simplelist/p0421_simplelist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0421_simplelist/p0421_simplelist.iml" filepath="$PROJECT_DIR$/p0421_simplelist/p0421_simplelist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0431_listsimplechoice/p0431_listsimplechoice.iml" filepath="$PROJECT_DIR$/p0431_listsimplechoice/p0431_listsimplechoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0431_listsimplechoice/p0431_listsimplechoice.iml" filepath="$PROJECT_DIR$/p0431_listsimplechoice/p0431_listsimplechoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0441_listsimpleevents/p0441_listsimpleevents.iml" filepath="$PROJECT_DIR$/p0441_listsimpleevents/p0441_listsimpleevents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0441_listsimpleevents/p0441_listsimpleevents.iml" filepath="$PROJECT_DIR$/p0441_listsimpleevents/p0441_listsimpleevents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" filepath="$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" filepath="$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" filepath="$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" filepath="$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" filepath="$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" />
     </modules>
   </component>
 </project>
