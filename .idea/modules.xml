@@ -47,6 +47,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" filepath="$PROJECT_DIR$/p0451_expandablelist/p0451_expandablelist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" filepath="$PROJECT_DIR$/p0461_expandablelistevents/p0461_expandablelistevents.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" filepath="$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" filepath="$PROJECT_DIR$/p0481_simpleadapter/p0481_simpleadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0491_simpleadaptercustom1/p0491_simpleadaptercustom1.iml" filepath="$PROJECT_DIR$/p0491_simpleadaptercustom1/p0491_simpleadaptercustom1.iml" />
     </modules>
   </component>
 </project>
