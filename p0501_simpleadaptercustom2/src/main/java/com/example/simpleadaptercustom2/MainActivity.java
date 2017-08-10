@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
     final String ATTRIBUTE_NAME_PB = "pb";
     final String ATTRIBUTE_NAME_LL = "ll";
 
-    LinearLayout llRow;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
