@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simpe cursor tree adapter</string>
+    <string name="LOG_TAG">simplecursortreeadapter</string>
+</resources>
