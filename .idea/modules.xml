@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0511_simpleadapterdata/p0511_simpleadapterdata.iml" filepath="$PROJECT_DIR$/p0511_simpleadapterdata/p0511_simpleadapterdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0521_simplecursoradapter/p0521_simplecursoradapter.iml" filepath="$PROJECT_DIR$/p0521_simplecursoradapter/p0521_simplecursoradapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0531_simpecursortreeadapter/p0531_simpecursortreeadapter.iml" filepath="$PROJECT_DIR$/p0531_simpecursortreeadapter/p0531_simpecursortreeadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0541_customadapter/p0541_customadapter.iml" filepath="$PROJECT_DIR$/p0541_customadapter/p0541_customadapter.iml" />
     </modules>
   </component>
 </project>
