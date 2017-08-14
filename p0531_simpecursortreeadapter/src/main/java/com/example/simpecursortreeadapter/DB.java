@@ -2,6 +2,7 @@ package com.example.simpecursortreeadapter;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -9,11 +10,13 @@ import android.util.Log;
 public class DB {
     final private Context context;
 
+    final String LOG_TAG;
+
     final String DB_NAME = "simplecursortreeadapter";
     final int DB_VERSION = 1;
 
-    DBOpenHelper sqLiteOpenHelper;
-    SQLiteDatabase db;
+    private DBOpenHelper sqLiteOpenHelper;
+    private SQLiteDatabase db;
 
     // имя таблицы компаний, поля и запрос создания
     private static final String COMPANY_TABLE = "company";
@@ -34,7 +37,8 @@ public class DB {
             + " text, " + PHONE_COLUMN_COMPANY + " integer" + ");";
 
     public DB(Context cntx) {
-       context = cntx;
+        context = cntx;
+        LOG_TAG = cntx.getString(R.string.LOG_TAG);
     }
 
     public void open() {
@@ -48,6 +52,43 @@ public class DB {
         }
     }
 
+    public Cursor getCompanies() {
+        return db.query(true, COMPANY_TABLE, null, null, null, null, null, null, null);
+    }
+
+    public Cursor getCompanyPhonesData(long companyId) {
+        return db.query(true, PHONE_TABLE, null, PHONE_COLUMN_COMPANY + " = " + companyId ,null , null, null, null, null);
+    }
+
+    public Cursor getAllPhonesData() {
+        readDataFromTable(db, PHONE_TABLE);
+        return db.query(true, PHONE_TABLE, null, null, null, null, null, null, null);
+    }
+
+    public void readDataFromTable(SQLiteDatabase db, String tableName){
+        Log.d(LOG_TAG, "--- Чтение данных из таблицы " + tableName + ", V" + String.valueOf(db.getVersion()) + " ---");
+        Log.d(LOG_TAG, "------------------------------------------------------------");
+
+        Cursor cursor = db.query(true, tableName, null, null, null, null, null, null, null);
+
+        if (cursor.moveToFirst()) {
+            String[] columns = cursor.getColumnNames();
+            String rowData;
+
+            do {
+                rowData = "";
+                for (String column: columns) {
+                    rowData +=  column + " = " + cursor.getString(cursor.getColumnIndex(column)) + "; ";
+                }
+                Log.d(LOG_TAG, rowData);
+
+            } while (cursor.moveToNext());
+        }
+
+        Log.d(LOG_TAG, "------------------------------------------------------------");
+        Log.d(LOG_TAG, "--- Всего прочитано " + String.valueOf(cursor.getCount()) + " строк ---");
+    }
+
     private class DBOpenHelper extends SQLiteOpenHelper {
         public DBOpenHelper(Context context, String name, int version) {
             super(context, name, null, version);
@@ -58,9 +99,11 @@ public class DB {
             ContentValues rowData;
             int i;
 
+            sqLiteDatabase.execSQL(COMPANY_TABLE_CREATE);
+            sqLiteDatabase.execSQL(PHONE_TABLE_CREATE);
+
             try {
-                db.beginTransaction();
-                db.execSQL(PHONE_TABLE_CREATE);
+                sqLiteDatabase.beginTransaction();
 
                 String[] phonesHTC = new String[] { "Sensation", "Desire",
                         "Wildfire", "Hero" };
@@ -80,7 +123,7 @@ public class DB {
                 for (i = 0; i < phonesSams.length; i++){
                     rowData = new ContentValues();
                     rowData.put(PHONE_COLUMN_NAME, phonesSams[i]);
-                    rowData.put(PHONE_COLUMN_COMPANY, 0);
+                    rowData.put(PHONE_COLUMN_COMPANY, 1);
 
                     sqLiteDatabase.insert(PHONE_TABLE, null, rowData);
                 }
@@ -88,30 +131,31 @@ public class DB {
                 for (i = 0; i < phonesLG.length; i++){
                     rowData = new ContentValues();
                     rowData.put(PHONE_COLUMN_NAME, phonesLG[i]);
-                    rowData.put(PHONE_COLUMN_COMPANY, 0);
+                    rowData.put(PHONE_COLUMN_COMPANY, 2);
 
                     sqLiteDatabase.insert(PHONE_TABLE, null, rowData);
                 }
 
-                db.execSQL(COMPANY_TABLE_CREATE);
+                rowData = new ContentValues();
+                rowData.put(COMPANY_COLUMN_NAME, "HTC");
+                rowData.put(COMPANY_COLUMN_ID, 0);
+                sqLiteDatabase.insert(COMPANY_TABLE, null, rowData);
 
                 rowData = new ContentValues();
-                rowData.put("COMPANY_COLUMN_NAME", 0);
-                db.insert(COMPANY_TABLE, null, rowData);
+                rowData.put(COMPANY_COLUMN_NAME, "SAMSUNG");
+                rowData.put(COMPANY_COLUMN_ID, 1);
+                sqLiteDatabase.insert(COMPANY_TABLE, null, rowData);
 
                 rowData = new ContentValues();
-                rowData.put("COMPANY_COLUMN_NAME", 1);
-                db.insert(COMPANY_TABLE, null, rowData);
+                rowData.put(COMPANY_COLUMN_NAME, "LG");
+                rowData.put(COMPANY_COLUMN_ID, 2);
+                sqLiteDatabase.insert(COMPANY_TABLE, null, rowData);
 
-                rowData = new ContentValues();
-                rowData.put("COMPANY_COLUMN_NAME", 2);
-                db.insert(COMPANY_TABLE, null, rowData);
-
-                db.setTransactionSuccessful();
+                sqLiteDatabase.setTransactionSuccessful();
             } catch (Throwable e) {
                 Log.d(context.getString(R.string.LOG_TAG), "DB error" + e.getMessage());
             } finally {
-                db.endTransaction();
+                sqLiteDatabase.endTransaction();
             }
         }
 
