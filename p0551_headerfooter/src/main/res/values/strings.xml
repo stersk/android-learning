@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HeaderFooter</string>
+    <string name="header_title">Шапка</string>
+    <string name="footer_title">Подвал</string>
+    <string name="button_remove">Удалить лишние шапки и подвалы</string>
+    <string name="button_text">Тест</string>
+</resources>

@@ -53,6 +53,9 @@
       <module fileurl="file://$PROJECT_DIR$/p0521_simplecursoradapter/p0521_simplecursoradapter.iml" filepath="$PROJECT_DIR$/p0521_simplecursoradapter/p0521_simplecursoradapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0531_simpecursortreeadapter/p0531_simpecursortreeadapter.iml" filepath="$PROJECT_DIR$/p0531_simpecursortreeadapter/p0531_simpecursortreeadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0541_customadapter/p0541_customadapter.iml" filepath="$PROJECT_DIR$/p0541_customadapter/p0541_customadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0551_headerfooter/p0551_headerfooter.iml" filepath="$PROJECT_DIR$/p0551_headerfooter/p0551_headerfooter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0561_spinner/p0561_spinner.iml" filepath="$PROJECT_DIR$/p0561_spinner/p0561_spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0571_gridview/p0571_gridview.iml" filepath="$PROJECT_DIR$/p0571_gridview/p0571_gridview.iml" />
     </modules>
   </component>
 </project>
