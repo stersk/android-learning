@@ -56,6 +56,9 @@
       <module fileurl="file://$PROJECT_DIR$/p0551_headerfooter/p0551_headerfooter.iml" filepath="$PROJECT_DIR$/p0551_headerfooter/p0551_headerfooter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0561_spinner/p0561_spinner.iml" filepath="$PROJECT_DIR$/p0561_spinner/p0561_spinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0571_gridview/p0571_gridview.iml" filepath="$PROJECT_DIR$/p0571_gridview/p0571_gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0581_timepickerdialog/p0581_timepickerdialog.iml" filepath="$PROJECT_DIR$/p0581_timepickerdialog/p0581_timepickerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0591_datepickerdialog/p0591_datepickerdialog.iml" filepath="$PROJECT_DIR$/p0591_datepickerdialog/p0591_datepickerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0601_alertdialogsimple/p0601_alertdialogsimple.iml" filepath="$PROJECT_DIR$/p0601_alertdialogsimple/p0601_alertdialogsimple.iml" />
     </modules>
   </component>
 </project>
