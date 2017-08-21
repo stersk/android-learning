@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">AlertDialogItems</string>
+    <string name="app_name">Alert dialog items</string>
+    <string name="btnCursor">Cursor</string>
+    <string name="btnAdapter">Adapter</string>
+    <string name="btnList">List</string>
 </resources>

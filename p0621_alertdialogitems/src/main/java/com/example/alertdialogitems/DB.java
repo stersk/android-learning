@@ -10,7 +10,7 @@ public class DB {
     private final Context context;
     private final int dbVersion = 1;
     private final String DB_NAME = "Dialog";
-    private final String MAIT_TABLE = "main";
+    private final String MAIN_TABLE = "main";
 
     private MySqliteDBOpenHelper dbOpenHelper;
     private SQLiteDatabase db;
@@ -31,19 +31,20 @@ public class DB {
     }
 
     public Cursor getAllData() {
-        return db.query(true, MAIT_TABLE, null, null, null, null, null, null, null);
+        return db.query(true, MAIN_TABLE, null, null, null, null, null, null, null);
     }
 
     public void increaseCounter() {
-        Cursor currentValueCursor = db.query(true, MAIT_TABLE, null, "_id = ?", new String[]{"4"}, null, null, null, null);
+        Cursor currentValueCursor = db.query(true, MAIN_TABLE, null, "_id = ?", new String[]{String.valueOf(4)}, null, null, null, null);
         int textColumnIdx = currentValueCursor.getColumnIndex("text");
 
         if (currentValueCursor.moveToFirst()) {
             int currentValue = Integer.valueOf(currentValueCursor.getString(textColumnIdx));
             ContentValues cv = new ContentValues();
             cv.put("text", String.valueOf(currentValue + 1));
+            cv.put("_id", 4);
 
-            db.update(MAIT_TABLE,cv, "_id", new String[]{"4"});
+            db.update(MAIN_TABLE,cv, "_id = ?", new String[]{"4"});
         }
     }
 
@@ -55,25 +56,25 @@ public class DB {
 
         @Override
         public void onCreate(SQLiteDatabase sqLiteDatabase) {
-            sqLiteDatabase.execSQL("create table " + MAIT_TABLE + " (" +
-                    "_id int auroincrement," +
+            sqLiteDatabase.execSQL("create table " + MAIN_TABLE + " (" +
+                    "_id integer primary key autoincrement," +
                     "text text)");
 
             ContentValues cv = new ContentValues();
             cv.put("text", "Первая строка");
-            sqLiteDatabase.insert(MAIT_TABLE, null, cv);
+            sqLiteDatabase.insert(MAIN_TABLE, null, cv);
             cv.clear();
 
             cv.put("text", "Вторая строка");
-            sqLiteDatabase.insert(MAIT_TABLE, null, cv);
+            sqLiteDatabase.insert(MAIN_TABLE, null, cv);
             cv.clear();
 
             cv.put("text", "Третья строка");
-            sqLiteDatabase.insert(MAIT_TABLE, null, cv);
+            sqLiteDatabase.insert(MAIN_TABLE, null, cv);
             cv.clear();
 
             cv.put("text", "0");
-            sqLiteDatabase.insert(MAIT_TABLE, null, cv);
+            sqLiteDatabase.insert(MAIN_TABLE, null, cv);
             cv.clear();
         }
 
