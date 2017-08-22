@@ -25,7 +25,7 @@ public class DB {
     }
 
     public void close() {
-        if (dbOpenHelper == null) {
+        if (dbOpenHelper != null) {
             dbOpenHelper.close();
         }
     }
@@ -34,18 +34,24 @@ public class DB {
         return db.query(true, MAIN_TABLE, null, null, null, null, null, null, null);
     }
 
-    public void increaseCounter() {
+
+    public int increaseCounter() {
         Cursor currentValueCursor = db.query(true, MAIN_TABLE, null, "_id = ?", new String[]{String.valueOf(4)}, null, null, null, null);
         int textColumnIdx = currentValueCursor.getColumnIndex("text");
+        int newValue = 0;
 
         if (currentValueCursor.moveToFirst()) {
-            int currentValue = Integer.valueOf(currentValueCursor.getString(textColumnIdx));
+            newValue = Integer.valueOf(currentValueCursor.getString(textColumnIdx)) + 1;
             ContentValues cv = new ContentValues();
-            cv.put("text", String.valueOf(currentValue + 1));
+            cv.put("text", String.valueOf(newValue));
             cv.put("_id", 4);
 
             db.update(MAIN_TABLE,cv, "_id = ?", new String[]{"4"});
         }
+
+        currentValueCursor.close();
+
+        return newValue;
     }
 
     private class MySqliteDBOpenHelper extends SQLiteOpenHelper {
