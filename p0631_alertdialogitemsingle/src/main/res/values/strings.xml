@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Alert dialog item single</string>
+    <string name="btnOpen">Открыть</string>
+</resources>
