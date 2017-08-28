@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.SparseBooleanArray;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -55,12 +56,19 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(DialogInterface dialogInterface, int i) {
             currentPosition = i;
             int fieldIdx = cursor.getColumnIndex("text");
-            int fieldCheckedIdx = cursor.getColumnIndex("checked");
 
             if (i == AlertDialog.BUTTON_POSITIVE) {
                 AlertDialog dialog = (AlertDialog) dialogInterface;
-                ListView listView = (ListView) dialog.getListView();
-                listView.getCheckedItemPositions();
+                ListView listView = dialog.getListView();
+                SparseBooleanArray newArray = listView.getCheckedItemPositions();
+
+                for (int i1 = 0; i1 < newArray.size(); i1++) {
+
+                    if (newArray.get(i1)) {
+                        cursor.moveToPosition(i1);
+                        Log.d("MULTISELECT", "Выбран: " + cursor.getString(fieldIdx));
+                    }
+                }
             }
         }
     };
