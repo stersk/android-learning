@@ -65,6 +65,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0641_alertdialogitemsmulti/p0641_alertdialogitemsmulti.iml" filepath="$PROJECT_DIR$/p0641_alertdialogitemsmulti/p0641_alertdialogitemsmulti.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0651_alertdialogcustom/p0651_alertdialogcustom.iml" filepath="$PROJECT_DIR$/p0651_alertdialogcustom/p0651_alertdialogcustom.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0661_alertdialogoprations/p0661_alertdialogoprations.iml" filepath="$PROJECT_DIR$/p0661_alertdialogoprations/p0661_alertdialogoprations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0671_processdialog/p0671_processdialog.iml" filepath="$PROJECT_DIR$/p0671_processdialog/p0671_processdialog.iml" />
     </modules>
   </component>
 </project>
