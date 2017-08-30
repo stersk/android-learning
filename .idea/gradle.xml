@@ -72,6 +72,7 @@
             <option value="$PROJECT_DIR$/p0661_alertdialogoprations" />
             <option value="$PROJECT_DIR$/p0671_processdialog" />
             <option value="$PROJECT_DIR$/p0681_parcel" />
+            <option value="$PROJECT_DIR$/p0691_parcelable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
