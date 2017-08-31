@@ -74,6 +74,7 @@
             <option value="$PROJECT_DIR$/p0681_parcel" />
             <option value="$PROJECT_DIR$/p0691_parcelable" />
             <option value="$PROJECT_DIR$/p0701_saveinstancestate" />
+            <option value="$PROJECT_DIR$/p0711_preferencessimple" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

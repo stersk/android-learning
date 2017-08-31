@@ -70,6 +70,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0691_parcelable/p0691_parcelable.iml" filepath="$PROJECT_DIR$/p0691_parcelable/p0691_parcelable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" filepath="$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" />
     </modules>
   </component>
 </project>
