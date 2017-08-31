@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     final String LOG_TAG = "SAVEINSTANCE";
     int counter = 0;
+    MyClass myObject = new MyClass(0);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onclick(View view) {
-        Toast.makeText(this, "Count = " + ++counter, Toast.LENGTH_SHORT).show();
+        myObject.setI(myObject.getI() + 1);
+        Toast.makeText(this, "Count = " + ++counter + " (" + String.valueOf(myObject.getI())+ ")", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -70,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         counter = savedInstanceState.getInt("counter");
+        myObject = (MyClass) getLastCustomNonConfigurationInstance();
 
         Log.d(LOG_TAG, "onRestoreInstanceState");
     }
@@ -83,7 +86,25 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public Object onRetainCustomNonConfigurationInstance() {
-        return super.onRetainCustomNonConfigurationInstance();
+        super.onRetainCustomNonConfigurationInstance();
+
+        return myObject;
     }
 }
 
+class MyClass extends Object {
+
+    private int i;
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public MyClass(int init){
+        i = init;
+    }
+}
