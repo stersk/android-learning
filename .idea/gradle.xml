@@ -73,6 +73,7 @@
             <option value="$PROJECT_DIR$/p0671_processdialog" />
             <option value="$PROJECT_DIR$/p0681_parcel" />
             <option value="$PROJECT_DIR$/p0691_parcelable" />
+            <option value="$PROJECT_DIR$/p0701_saveinstancestate" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
