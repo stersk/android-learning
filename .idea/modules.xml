@@ -69,8 +69,9 @@
       <module fileurl="file://$PROJECT_DIR$/p0681_parcel/p0681_parcel.iml" filepath="$PROJECT_DIR$/p0681_parcel/p0681_parcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0691_parcelable/p0691_parcelable.iml" filepath="$PROJECT_DIR$/p0691_parcelable/p0691_parcelable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" filepath="$PROJECT_DIR$/p0701_saveinstancestate/p0701_saveinstancestate.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" filepath="$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0721_preferencessimple2/p0721_preferencessimple2.iml" filepath="$PROJECT_DIR$/p0721_preferencessimple2/p0721_preferencessimple2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0731_preferencesenable/p0731_preferencesenable.iml" filepath="$PROJECT_DIR$/p0731_preferencesenable/p0731_preferencesenable.iml" />
     </modules>
   </component>
 </project>

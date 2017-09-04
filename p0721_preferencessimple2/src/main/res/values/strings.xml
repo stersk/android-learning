@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Preferences simple 2</string>
+    <string-array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="entries_values">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+</resources>

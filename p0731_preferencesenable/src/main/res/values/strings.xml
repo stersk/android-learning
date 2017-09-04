@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Preferences enable</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string-array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="entries_values">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+</resources>
