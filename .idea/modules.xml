@@ -72,6 +72,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" filepath="$PROJECT_DIR$/p0711_preferencessimple/p0711_preferencessimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0721_preferencessimple2/p0721_preferencessimple2.iml" filepath="$PROJECT_DIR$/p0721_preferencessimple2/p0721_preferencessimple2.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0731_preferencesenable/p0731_preferencesenable.iml" filepath="$PROJECT_DIR$/p0731_preferencesenable/p0731_preferencesenable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0741_preferencescode/p0741_preferencescode.iml" filepath="$PROJECT_DIR$/p0741_preferencescode/p0741_preferencescode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0751_files/p0751_files.iml" filepath="$PROJECT_DIR$/p0751_files/p0751_files.iml" />
     </modules>
   </component>
 </project>
