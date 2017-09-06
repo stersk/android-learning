@@ -99,6 +99,10 @@ public class MainActivity extends AppCompatActivity {
         // формируем объект File, который содержит путь к файлу
         File sdFile = new File(sdPath, FILENAME_SD);
         try {
+            if (!sdFile.exists()) {
+                sdFile.createNewFile();
+            }
+
             // открываем поток для записи
             BufferedWriter bw = new BufferedWriter(new FileWriter(sdFile));
             // пишем данные
