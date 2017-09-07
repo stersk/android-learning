@@ -75,6 +75,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0741_preferencescode/p0741_preferencescode.iml" filepath="$PROJECT_DIR$/p0741_preferencescode/p0741_preferencescode.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0751_files/p0751_files.iml" filepath="$PROJECT_DIR$/p0751_files/p0751_files.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0761_tab/p0761_tab.iml" filepath="$PROJECT_DIR$/p0761_tab/p0761_tab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0771_tabintent/p0771_tabintent.iml" filepath="$PROJECT_DIR$/p0771_tabintent/p0771_tabintent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0781_tabcontentfactory/p0781_tabcontentfactory.iml" filepath="$PROJECT_DIR$/p0781_tabcontentfactory/p0781_tabcontentfactory.iml" />
     </modules>
   </component>
 </project>

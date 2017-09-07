@@ -80,6 +80,8 @@
             <option value="$PROJECT_DIR$/p0741_preferencescode" />
             <option value="$PROJECT_DIR$/p0751_files" />
             <option value="$PROJECT_DIR$/p0761_tab" />
+            <option value="$PROJECT_DIR$/p0771_tabintent" />
+            <option value="$PROJECT_DIR$/p0781_tabcontentfactory" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
