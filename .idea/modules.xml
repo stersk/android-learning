@@ -77,6 +77,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0761_tab/p0761_tab.iml" filepath="$PROJECT_DIR$/p0761_tab/p0761_tab.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0771_tabintent/p0771_tabintent.iml" filepath="$PROJECT_DIR$/p0771_tabintent/p0771_tabintent.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0781_tabcontentfactory/p0781_tabcontentfactory.iml" filepath="$PROJECT_DIR$/p0781_tabcontentfactory/p0781_tabcontentfactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0791_xmlpullparser/p0791_xmlpullparser.iml" filepath="$PROJECT_DIR$/p0791_xmlpullparser/p0791_xmlpullparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0801_handler/p0801_handler.iml" filepath="$PROJECT_DIR$/p0801_handler/p0801_handler.iml" />
     </modules>
   </component>
 </project>
