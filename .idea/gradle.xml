@@ -84,6 +84,8 @@
             <option value="$PROJECT_DIR$/p0781_tabcontentfactory" />
             <option value="$PROJECT_DIR$/p0791_xmlpullparser" />
             <option value="$PROJECT_DIR$/p0801_handler" />
+            <option value="$PROJECT_DIR$/p0811_handlersimplemessage" />
+            <option value="$PROJECT_DIR$/p0821_handleradvmessage" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,9 +1,11 @@
 package com.example.handler;
 
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
@@ -11,26 +13,36 @@ import java.util.concurrent.TimeUnit;
 public class MainActivity extends AppCompatActivity {
 
     TextView tvInfo;
+    Button btnStart;
     final String LOG_TAG = "MyLog";
+    Handler h;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         tvInfo = (TextView) findViewById(R.id.tvInfo);
+        btnStart = (Button) findViewById(R.id.btnStart);
+
+        h = new Handler() {
+            public void handleMessage(android.os.Message msg) {
+                // обновляем TextView
+                tvInfo.setText("Закачано файлов: " + msg.what);
+                if (msg.what == 10) btnStart.setEnabled(true);
+            };
+        };
     }
 
     public void onclick(View view) {
         switch (view.getId()) {
             case R.id.btnStart:
+                btnStart.setEnabled(false);
                 Thread t = new Thread(new Runnable() {
                     public void run() {
                         for (int i = 1; i <= 10; i++) {
                             // долгий процесс
                             downloadFile();
-                            // обновляем TextView
-//                            tvInfo.setText("Закачано файлов: " + i);
+                            h.sendEmptyMessage(i);
                             // пишем лог
                             Log.d(LOG_TAG, "i = " + i);
                         }
