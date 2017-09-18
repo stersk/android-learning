@@ -88,6 +88,8 @@
             <option value="$PROJECT_DIR$/p0821_handleradvmessage" />
             <option value="$PROJECT_DIR$/p0831_handlermessagemanage" />
             <option value="$PROJECT_DIR$/p0841_handlerrunnable" />
+            <option value="$PROJECT_DIR$/p0851_runnableuithread" />
+            <option value="$PROJECT_DIR$/p0861_asynctasks" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

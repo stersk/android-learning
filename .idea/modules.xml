@@ -83,6 +83,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0821_handleradvmessage/p0821_handleradvmessage.iml" filepath="$PROJECT_DIR$/p0821_handleradvmessage/p0821_handleradvmessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0831_handlermessagemanage/p0831_handlermessagemanage.iml" filepath="$PROJECT_DIR$/p0831_handlermessagemanage/p0831_handlermessagemanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0841_handlerrunnable/p0841_handlerrunnable.iml" filepath="$PROJECT_DIR$/p0841_handlerrunnable/p0841_handlerrunnable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0851_runnableuithread/p0851_runnableuithread.iml" filepath="$PROJECT_DIR$/p0851_runnableuithread/p0851_runnableuithread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0861_asynctasks/p0861_asynctasks.iml" filepath="$PROJECT_DIR$/p0861_asynctasks/p0861_asynctasks.iml" />
     </modules>
   </component>
 </project>
