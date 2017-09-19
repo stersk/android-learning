@@ -85,6 +85,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0841_handlerrunnable/p0841_handlerrunnable.iml" filepath="$PROJECT_DIR$/p0841_handlerrunnable/p0841_handlerrunnable.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0851_runnableuithread/p0851_runnableuithread.iml" filepath="$PROJECT_DIR$/p0851_runnableuithread/p0851_runnableuithread.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0861_asynctasks/p0861_asynctasks.iml" filepath="$PROJECT_DIR$/p0861_asynctasks/p0861_asynctasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0871_asynctaskparams/p0871_asynctaskparams.iml" filepath="$PROJECT_DIR$/p0871_asynctaskparams/p0871_asynctaskparams.iml" />
     </modules>
   </component>
 </project>
