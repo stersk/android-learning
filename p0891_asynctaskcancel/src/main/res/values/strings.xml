@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Async task cancel</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+</resources>
