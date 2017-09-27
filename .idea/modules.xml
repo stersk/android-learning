@@ -88,6 +88,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0871_asynctaskparams/p0871_asynctaskparams.iml" filepath="$PROJECT_DIR$/p0871_asynctaskparams/p0871_asynctaskparams.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0881_asynctaskresult/p0881_asynctaskresult.iml" filepath="$PROJECT_DIR$/p0881_asynctaskresult/p0881_asynctaskresult.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0891_asynctaskcancel/p0891_asynctaskcancel.iml" filepath="$PROJECT_DIR$/p0891_asynctaskcancel/p0891_asynctaskcancel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0901_asynctaskstatus/p0901_asynctaskstatus.iml" filepath="$PROJECT_DIR$/p0901_asynctaskstatus/p0901_asynctaskstatus.iml" />
     </modules>
   </component>
 </project>
