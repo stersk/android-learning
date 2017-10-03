@@ -95,7 +95,8 @@
             <option value="$PROJECT_DIR$/p0891_asynctaskcancel" />
             <option value="$PROJECT_DIR$/p0901_asynctaskstatus" />
             <option value="$PROJECT_DIR$/p0911_asynctaskrotate" />
-            <option value="$PROJECT_DIR$/p0921_ServiceSimple" />
+            <option value="$PROJECT_DIR$/p0921_servicesimple" />
+            <option value="$PROJECT_DIR$/p0931_servicestop" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
