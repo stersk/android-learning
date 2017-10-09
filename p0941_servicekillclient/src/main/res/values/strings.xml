@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Service kill client</string>
+    <string name="start">Start</string>
+</resources>
