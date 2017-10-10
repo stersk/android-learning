@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickStart(View v) {
-        startService(new Intent("com.example.p0942servicekillserver.MyService").putExtra("name", "value"));
+        Intent serviceIntent = new Intent("com.example.servicekillserver.MyService");
+        serviceIntent.setPackage("com.example.servicekillserver");
+        serviceIntent.putExtra("name", "value");
+        startService(serviceIntent);
     }
 }

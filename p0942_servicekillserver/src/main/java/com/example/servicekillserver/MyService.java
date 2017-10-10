@@ -26,7 +26,7 @@ public class MyService extends Service {
         readFlags(flags);
         MyRun mr = new MyRun(startId);
         new Thread(mr).start();
-        return START_NOT_STICKY;
+        return START_REDELIVER_INTENT;
     }
 
     public IBinder onBind(Intent arg0) {
