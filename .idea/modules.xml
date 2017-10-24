@@ -97,6 +97,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0951_servicebackpendingintent/p0951_servicebackpendingintent.iml" filepath="$PROJECT_DIR$/p0951_servicebackpendingintent/p0951_servicebackpendingintent.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0961_servicebackbroadcast/p0961_servicebackbroadcast.iml" filepath="$PROJECT_DIR$/p0961_servicebackbroadcast/p0961_servicebackbroadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0962_servicebackbroadcast/p0962_servicebackbroadcast.iml" filepath="$PROJECT_DIR$/p0962_servicebackbroadcast/p0962_servicebackbroadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0971_servicebindclient/p0971_servicebindclient.iml" filepath="$PROJECT_DIR$/p0971_servicebindclient/p0971_servicebindclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0972_servicebindserver/p0972_servicebindserver.iml" filepath="$PROJECT_DIR$/p0972_servicebindserver/p0972_servicebindserver.iml" />
     </modules>
   </component>
 </project>

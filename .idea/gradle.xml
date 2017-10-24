@@ -102,6 +102,8 @@
             <option value="$PROJECT_DIR$/p0951_servicebackpendingintent" />
             <option value="$PROJECT_DIR$/p0961_servicebackbroadcast" />
             <option value="$PROJECT_DIR$/p0962_servicebackbroadcast" />
+            <option value="$PROJECT_DIR$/p0971_servicebindclient" />
+            <option value="$PROJECT_DIR$/p0972_servicebindserver" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
