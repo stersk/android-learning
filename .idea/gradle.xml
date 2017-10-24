@@ -101,6 +101,7 @@
             <option value="$PROJECT_DIR$/p0942_servicekillserver" />
             <option value="$PROJECT_DIR$/p0951_servicebackpendingintent" />
             <option value="$PROJECT_DIR$/p0961_servicebackbroadcast" />
+            <option value="$PROJECT_DIR$/p0962_servicebackbroadcast" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

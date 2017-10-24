@@ -39,23 +39,25 @@ public class MainActivity extends AppCompatActivity {
         textView2.setText("");
         textView3.setText("");
 
-        Intent serviceIntent = new Intent(this, MyService.class);
+        Intent serviceIntent;
 
+        serviceIntent = new Intent(this, MyService.class);
         serviceIntent.putExtra("requestNumber", 1);
         serviceIntent.putExtra("delay", 3);
         startService(serviceIntent);
 
+        serviceIntent = new Intent(this, MyService.class);
         serviceIntent.putExtra("requestNumber", 2);
         serviceIntent.putExtra("delay", 6);
         startService(serviceIntent);
 
+        serviceIntent = new Intent(this, MyService.class);
         serviceIntent.putExtra("requestNumber", 3);
         serviceIntent.putExtra("delay", 4);
         startService(serviceIntent);
     }
 
     class MyReceiver extends BroadcastReceiver {
-
         @Override
         public void onReceive(Context context, Intent intent) {
             switch (intent.getIntExtra("startId", 0)) {

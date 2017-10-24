@@ -18,7 +18,6 @@ public class MyService extends Service {
         int delay = intent.getIntExtra("delay", 10);
         MyRun myRun = new MyRun(startId, delay);
         es.execute(myRun);
-        myRun.run();
 
         return Service.START_NOT_STICKY;
     }
