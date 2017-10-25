@@ -22,9 +22,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myIntent = new Intent("com.example.servicebindserver.SERVICE");
-        serviceConnection = new ServiceConnection() {
+        Log.d(LOG_TAG, "Application started.");
 
+        myIntent = new Intent("com.example.servicebindserver.SERVICE");
+        myIntent.setPackage("com.example.servicebindserver");
+
+        serviceConnection = new ServiceConnection() {
             public void onServiceConnected(ComponentName name, IBinder binder) {
                 Log.d(LOG_TAG, "MainActivity onServiceConnected");
                 bound = true;
@@ -46,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBind(View view) {
-        if (!bound) return;
+        if (!bound) {
+            return;
+        };
         bound = bindService(myIntent, serviceConnection, BIND_AUTO_CREATE);
         bound = false;
     }
