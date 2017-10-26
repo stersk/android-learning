@@ -26,7 +26,8 @@ public class MyService extends Service {
 
     public boolean onUnbind(Intent intent) {
         Log.d(LOG_TAG, "MyService onUnbind");
-        return super.onUnbind(intent);
+        //return super.onUnbind(intent);
+        return true;
     }
 
     public void onDestroy() {

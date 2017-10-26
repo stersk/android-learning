@@ -49,17 +49,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBind(View view) {
-        if (!bound) {
-            return;
-        };
-        bound = bindService(myIntent, serviceConnection, BIND_AUTO_CREATE);
-        bound = false;
+        bindService(myIntent, serviceConnection, BIND_AUTO_CREATE);
     }
 
     public void onClickUnBind(View view) {
-        if (bound) {
-            unbindService(serviceConnection);
-        }
+        if (!bound) return;
+        unbindService(serviceConnection);
+        bound = false;
     }
 
     @Override
