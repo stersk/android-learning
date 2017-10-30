@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Service local binding</string>
+    <string name="start">Старт</string>
+    <string name="up">Увеличить задержку</string>
+    <string name="down">Уменьшить задержку</string>
+    <string name="stop">Стоп</string>
+</resources>
