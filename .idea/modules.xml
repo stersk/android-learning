@@ -101,6 +101,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0972_servicebindserver/p0972_servicebindserver.iml" filepath="$PROJECT_DIR$/p0972_servicebindserver/p0972_servicebindserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0981_servicelocalbinding/p0981_servicelocalbinding.iml" filepath="$PROJECT_DIR$/p0981_servicelocalbinding/p0981_servicelocalbinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0991_servicenotification/p0991_servicenotification.iml" filepath="$PROJECT_DIR$/p0991_servicenotification/p0991_servicenotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1101_contentprovider/p1101_contentprovider.iml" filepath="$PROJECT_DIR$/p1101_contentprovider/p1101_contentprovider.iml" />
     </modules>
   </component>
 </project>
