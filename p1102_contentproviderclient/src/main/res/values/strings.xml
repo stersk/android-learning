@@ -4,4 +4,6 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="error">Error</string>
+    <string name="name">Name</string>
+    <string name="mail">E-Mail</string>
 </resources>

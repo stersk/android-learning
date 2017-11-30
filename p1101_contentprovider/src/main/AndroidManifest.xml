@@ -10,6 +10,7 @@
         android:theme="@style/AppTheme"
     <provider
         android:authorities="content://com.example.contentprovider"
-        android:name=".MyContactsProvider"/>
+        android:name=".MyContactsProvider"
+        android:exported="true"/>
     </application>
 </manifest>

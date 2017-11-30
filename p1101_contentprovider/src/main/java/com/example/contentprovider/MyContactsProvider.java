@@ -11,6 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.util.Log;
 
 public class MyContactsProvider extends ContentProvider {
     final String LOG_TAG = "myLogs";
@@ -43,6 +44,8 @@ public class MyContactsProvider extends ContentProvider {
     public void shutdown() {
         super.shutdown();
 
+        Log.d(LOG_TAG, "PROVIDER: shutdown");
+
         db.close();
         dbHelper.close();
     }
@@ -56,6 +59,8 @@ public class MyContactsProvider extends ContentProvider {
         uriMatcher.addURI(AUTORITY, CONTACT_PATH + "/#", EMAIL_ID);
 
         contentResolver = getContext().getContentResolver();
+
+        Log.d(LOG_TAG, "PROVIDER: create");
 
         return true;
     }
@@ -71,7 +76,7 @@ public class MyContactsProvider extends ContentProvider {
 
         switch (uriMatcher.match(uri)) {
             case ALL_EMAILS:
-
+                Log.d(LOG_TAG, "PROVIDER: query all");
                 cursor = db.query(false,CONTACT_TABLE,strings,s,strings1,"","",s1,"");
                 cursor.setNotificationUri(contentResolver, Uri.parse(AUTORITY));
 
@@ -80,6 +85,7 @@ public class MyContactsProvider extends ContentProvider {
             case EMAIL_ID:
                 String contactId = uri.getLastPathSegment();
 
+                Log.d(LOG_TAG, "PROVIDER: query single");
                 cursor = db.query(false,CONTACT_TABLE,strings,CONTACT_ID + "=" + contactId,strings1,"","",s1,"");
                 cursor.setNotificationUri(contentResolver, Uri.parse(AUTORITY));
 
@@ -103,6 +109,8 @@ public class MyContactsProvider extends ContentProvider {
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues contentValues) {
         switch (uriMatcher.match(uri)) {
             case EMAIL_ID:
+                Log.d(LOG_TAG, "PROVIDER: insert");
+
                 long newId = db.insert(CONTACT_TABLE,null, contentValues);
                 Uri resultUri = uri.withAppendedPath(uri, String.valueOf(newId));
                 contentResolver.notifyChange(resultUri, null);
@@ -120,6 +128,8 @@ public class MyContactsProvider extends ContentProvider {
 
         switch (uriMatcher.match(uri)) {
             case EMAIL_ID:
+                Log.d(LOG_TAG, "PROVIDER: delete");
+
                 s = CONTACT_ID + "=" + uri.getLastPathSegment();
                 deletedCount = db.delete(CONTACT_TABLE, s, strings);
                 contentResolver.notifyChange(uri, null);
@@ -143,6 +153,8 @@ public class MyContactsProvider extends ContentProvider {
 
         switch (uriMatcher.match(uri)) {
             case EMAIL_ID:
+                Log.d(LOG_TAG, "PROVIDER: update");
+
                 s = CONTACT_ID + "=" + uri.getLastPathSegment();
 
                 deletedCount = db.update(CONTACT_TABLE, contentValues, s, strings);
@@ -167,6 +179,8 @@ public class MyContactsProvider extends ContentProvider {
 
         @Override
         public void onCreate(SQLiteDatabase sqLiteDatabase) {
+            Log.d(LOG_TAG, "PROVIDER: database-create");
+
             sqLiteDatabase.execSQL("create table " + CONTACT_TABLE + " ("
                     + CONTACT_ID + " integer primary key autoincrement,"
                     + CONTACT_NAME + " text,"
