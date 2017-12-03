@@ -35,6 +35,15 @@ public class MyContactsProvider extends ContentProvider {
     private static final int ALL_EMAILS = 1;
     private static final int EMAIL_ID = 2;
 
+    // Типы данных
+    // набор строк
+    static final String CONTACT_CONTENT_TYPE = "vnd.android.cursor.dir/vnd."
+            + AUTORITY + "." + CONTACT_PATH;
+
+    // одна строка
+    static final String CONTACT_CONTENT_ITEM_TYPE = "vnd.android.cursor.item/vnd."
+            + AUTORITY + "." + CONTACT_PATH;
+
     SQLiteDatabase db;
     MyDbHelper dbHelper;
     UriMatcher uriMatcher = new UriMatcher(1);
@@ -100,7 +109,14 @@ public class MyContactsProvider extends ContentProvider {
 
     @Nullable
     @Override
-    public String getType(@NonNull Uri uri) {
+    public String getType(@NonNull Uri uri){
+        Log.d(LOG_TAG, "getType, " + uri.toString());
+        switch (uriMatcher.match(uri)) {
+            case ALL_EMAILS:
+                return CONTACT_CONTENT_TYPE;
+            case EMAIL_ID:
+                return CONTACT_CONTENT_ITEM_TYPE;
+        }
         return null;
     }
 
@@ -108,12 +124,13 @@ public class MyContactsProvider extends ContentProvider {
     @Override
     public Uri insert(@NonNull Uri uri, @Nullable ContentValues contentValues) {
         switch (uriMatcher.match(uri)) {
-            case EMAIL_ID:
+            case ALL_EMAILS:
                 Log.d(LOG_TAG, "PROVIDER: insert");
 
                 long newId = db.insert(CONTACT_TABLE,null, contentValues);
                 Uri resultUri = uri.withAppendedPath(uri, String.valueOf(newId));
-                contentResolver.notifyChange(resultUri, null);
+
+                contentResolver.notifyChange(Uri.parse(AUTORITY), null);
 
                 return resultUri;
             default:
@@ -132,14 +149,14 @@ public class MyContactsProvider extends ContentProvider {
 
                 s = CONTACT_ID + "=" + uri.getLastPathSegment();
                 deletedCount = db.delete(CONTACT_TABLE, s, strings);
-                contentResolver.notifyChange(uri, null);
+                contentResolver.notifyChange(Uri.parse(AUTORITY), null);
 
                 return deletedCount;
 
             case ALL_EMAILS:
 
                 deletedCount = db.delete(CONTACT_TABLE, s, strings);
-                contentResolver.notifyChange(uri, null);
+                contentResolver.notifyChange(Uri.parse(AUTORITY), null);
 
                 return deletedCount;
             default:
@@ -158,7 +175,7 @@ public class MyContactsProvider extends ContentProvider {
                 s = CONTACT_ID + "=" + uri.getLastPathSegment();
 
                 deletedCount = db.update(CONTACT_TABLE, contentValues, s, strings);
-                contentResolver.notifyChange(uri, null);
+                contentResolver.notifyChange(Uri.parse(AUTORITY), null);
 
                 return deletedCount;
             case ALL_EMAILS:
