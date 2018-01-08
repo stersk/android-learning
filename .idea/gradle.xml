@@ -106,8 +106,9 @@
             <option value="$PROJECT_DIR$/p0972_servicebindserver" />
             <option value="$PROJECT_DIR$/p0981_servicelocalbinding" />
             <option value="$PROJECT_DIR$/p0991_servicenotification" />
-            <option value="$PROJECT_DIR$/p1101_contentprovider" />
-            <option value="$PROJECT_DIR$/p1102_contentproviderclient" />
+            <option value="$PROJECT_DIR$/p1011_contentprovider" />
+            <option value="$PROJECT_DIR$/p1012_contentproviderclient" />
+            <option value="$PROJECT_DIR$/p1020_touch" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
