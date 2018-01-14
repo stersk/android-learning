@@ -104,6 +104,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1011_contentprovider/p1011_contentprovider.iml" filepath="$PROJECT_DIR$/p1011_contentprovider/p1011_contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1012_contentproviderclient/p1012_contentproviderclient.iml" filepath="$PROJECT_DIR$/p1012_contentproviderclient/p1012_contentproviderclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1020_touch/p1020_touch.iml" filepath="$PROJECT_DIR$/p1020_touch/p1020_touch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" filepath="$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" filepath="$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" />
     </modules>
   </component>
 </project>

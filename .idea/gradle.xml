@@ -109,6 +109,8 @@
             <option value="$PROJECT_DIR$/p1011_contentprovider" />
             <option value="$PROJECT_DIR$/p1012_contentproviderclient" />
             <option value="$PROJECT_DIR$/p1020_touch" />
+            <option value="$PROJECT_DIR$/p1030_MULTITOUCH" />
+            <option value="$PROJECT_DIR$/p1040_fragmentlifecycle" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
