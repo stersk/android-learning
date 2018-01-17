@@ -4,7 +4,6 @@ package com.example.fragments;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +12,7 @@ import android.view.ViewGroup;
 
 public class Fragment1 extends Fragment {
 
-    final String LOG_TAG = "myLogs";
+    private final String LOG_TAG = "myLogs";
 
     @Override
     public void onAttach(Activity activity) {

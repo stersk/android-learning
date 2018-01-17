@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener{
 
-    int count;
+    private int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

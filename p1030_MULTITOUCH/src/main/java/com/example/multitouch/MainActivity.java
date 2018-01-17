@@ -8,12 +8,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener{
 
-    StringBuilder sb = new StringBuilder();
-    TextView tv;
-    int upPI = 0;
-    int downPI = 0;
-    boolean inTouch = false;
-    String result = "";
+    private final StringBuilder sb = new StringBuilder();
+    private TextView tv;
+    private int upPI = 0;
+    private int downPI = 0;
+    private boolean inTouch = false;
+    private String result = "";
 
     /** Called when the activity is first created. */
     @Override

@@ -6,7 +6,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    final String LOG_TAG = "myLogs";
+    private final String LOG_TAG = "myLogs";
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

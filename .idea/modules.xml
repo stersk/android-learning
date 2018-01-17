@@ -106,6 +106,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1020_touch/p1020_touch.iml" filepath="$PROJECT_DIR$/p1020_touch/p1020_touch.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" filepath="$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" filepath="$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" filepath="$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" />
     </modules>
   </component>
 </project>

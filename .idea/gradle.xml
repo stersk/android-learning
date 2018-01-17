@@ -111,6 +111,7 @@
             <option value="$PROJECT_DIR$/p1020_touch" />
             <option value="$PROJECT_DIR$/p1030_MULTITOUCH" />
             <option value="$PROJECT_DIR$/p1040_fragmentlifecycle" />
+            <option value="$PROJECT_DIR$/p1050_fragmentdynamic" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
