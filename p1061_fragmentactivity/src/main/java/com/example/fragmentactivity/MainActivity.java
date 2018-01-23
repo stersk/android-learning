@@ -9,12 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Fragment2.onSomeEventListener {
 
-    FragmentManager fragmentManager;
-    Fragment2 fragment2 = new Fragment2();
-
-    Button buttonFind;
+    private FragmentManager fragmentManager;
+    private final Fragment2 fragment2 = new Fragment2();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.fragment2, fragment2);
         fragmentTransaction.commit();
-
-        buttonFind = findViewById(R.id.btnFind);
     }
 
     public void onClick(View v) {
@@ -37,5 +33,12 @@ public class MainActivity extends AppCompatActivity {
         Fragment frag2 = getFragmentManager().findFragmentById(R.id.fragment2);
         ((TextView) frag2.getView().findViewById(R.id.textView))
                 .setText("Access to Fragment 2 from Activity");
+    }
+
+    @Override
+    public void someEvent(String string) {
+        Fragment frag1 = getFragmentManager().findFragmentById(R.id.fragment1);
+        ((TextView) frag1.getView().findViewById(R.id.textView))
+                .setText(string);
     }
 }

@@ -15,7 +15,7 @@ import android.widget.Button;
  * A simple {@link Fragment} subclass.
  */
 public class Fragment1 extends Fragment {
-    final String LOG_TAG = "myLogs";
+    private final String LOG_TAG = "myLogs";
 
     public Fragment1() {
         // Required empty public constructor
