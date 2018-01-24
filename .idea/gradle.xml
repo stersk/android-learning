@@ -113,6 +113,7 @@
             <option value="$PROJECT_DIR$/p1040_fragmentlifecycle" />
             <option value="$PROJECT_DIR$/p1050_fragmentdynamic" />
             <option value="$PROJECT_DIR$/p1061_fragmentactivity" />
+            <option value="$PROJECT_DIR$/p1071_actionbaritems" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
