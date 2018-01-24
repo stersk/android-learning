@@ -109,6 +109,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" filepath="$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1061_fragmentactivity/p1061_fragmentactivity.iml" filepath="$PROJECT_DIR$/p1061_fragmentactivity/p1061_fragmentactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1071_actionbaritems/p1071_actionbaritems.iml" filepath="$PROJECT_DIR$/p1071_actionbaritems/p1071_actionbaritems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigation.iml" filepath="$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" filepath="$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" />
     </modules>
   </component>
 </project>

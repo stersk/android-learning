@@ -114,6 +114,8 @@
             <option value="$PROJECT_DIR$/p1050_fragmentdynamic" />
             <option value="$PROJECT_DIR$/p1061_fragmentactivity" />
             <option value="$PROJECT_DIR$/p1071_actionbaritems" />
+            <option value="$PROJECT_DIR$/p1081_actionbarnavigationtab" />
+            <option value="$PROJECT_DIR$/p1082_actionbarnavigationdropdown" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
