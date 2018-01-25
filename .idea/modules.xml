@@ -109,8 +109,10 @@
       <module fileurl="file://$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" filepath="$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1061_fragmentactivity/p1061_fragmentactivity.iml" filepath="$PROJECT_DIR$/p1061_fragmentactivity/p1061_fragmentactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1071_actionbaritems/p1071_actionbaritems.iml" filepath="$PROJECT_DIR$/p1071_actionbaritems/p1071_actionbaritems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigation.iml" filepath="$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigationtab.iml" filepath="$PROJECT_DIR$/p1081_actionbarnavigationtab/p1081_actionbarnavigationtab.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" filepath="$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1091_listfragment/p1091_listfragment.iml" filepath="$PROJECT_DIR$/p1091_listfragment/p1091_listfragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" filepath="$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" />
     </modules>
   </component>
 </project>

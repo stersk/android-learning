@@ -116,6 +116,8 @@
             <option value="$PROJECT_DIR$/p1071_actionbaritems" />
             <option value="$PROJECT_DIR$/p1081_actionbarnavigationtab" />
             <option value="$PROJECT_DIR$/p1082_actionbarnavigationdropdown" />
+            <option value="$PROJECT_DIR$/p1091_listfragment" />
+            <option value="$PROJECT_DIR$/p1092_listfragmentcheckbox" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
