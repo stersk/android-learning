@@ -113,6 +113,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" filepath="$PROJECT_DIR$/p1082_actionbarnavigationdropdown/p1082_actionbarnavigationdropdown.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1091_listfragment/p1091_listfragment.iml" filepath="$PROJECT_DIR$/p1091_listfragment/p1091_listfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" filepath="$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1101_dialogfragment/p1101_dialogfragment.iml" filepath="$PROJECT_DIR$/p1101_dialogfragment/p1101_dialogfragment.iml" />
     </modules>
   </component>
 </project>

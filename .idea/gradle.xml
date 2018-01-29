@@ -118,6 +118,7 @@
             <option value="$PROJECT_DIR$/p1082_actionbarnavigationdropdown" />
             <option value="$PROJECT_DIR$/p1091_listfragment" />
             <option value="$PROJECT_DIR$/p1092_listfragmentcheckbox" />
+            <option value="$PROJECT_DIR$/p1101_dialogfragment" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
