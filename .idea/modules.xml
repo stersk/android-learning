@@ -115,6 +115,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" filepath="$PROJECT_DIR$/p1092_listfragmentcheckbox/p1092_listfragmentcheckbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1101_dialogfragment/p1101_dialogfragment.iml" filepath="$PROJECT_DIR$/p1101_dialogfragment/p1101_dialogfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1111_preferencefragment/p1111_preferencefragment.iml" filepath="$PROJECT_DIR$/p1111_preferencefragment/p1111_preferencefragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1121_dinamicactionbar/p1121_dinamicactionbar.iml" filepath="$PROJECT_DIR$/p1121_dinamicactionbar/p1121_dinamicactionbar.iml" />
     </modules>
   </component>
 </project>

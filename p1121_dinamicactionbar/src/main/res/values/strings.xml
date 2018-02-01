@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dinamic action bar</string>
+    <string name="add_del">Добавить/удалить</string>
+    <string name="visible">Показать/скрыть</string>
+    <string name="fragment">Фрагмент</string>
+    <string name="frag1_text">Fragment 1</string>
+    <string name="frag2_text">Fragment 2</string>
+    <string name="menu_item1">Item 1</string>
+    <string name="menu_item2">Item 2</string>
+    <string name="menu_item31">Item 31</string>
+    <string name="menu_item32">Item 32</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
