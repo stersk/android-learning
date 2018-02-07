@@ -117,6 +117,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1111_preferencefragment/p1111_preferencefragment.iml" filepath="$PROJECT_DIR$/p1111_preferencefragment/p1111_preferencefragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1121_dinamicactionbar/p1121_dinamicactionbar.iml" filepath="$PROJECT_DIR$/p1121_dinamicactionbar/p1121_dinamicactionbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1131_actionmode/p1131_actionmode.iml" filepath="$PROJECT_DIR$/p1131_actionmode/p1131_actionmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1151_multiplescreen/p1151_multiplescreen.iml" filepath="$PROJECT_DIR$/p1151_multiplescreen/p1151_multiplescreen.iml" />
     </modules>
   </component>
 </project>

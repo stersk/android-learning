@@ -122,6 +122,7 @@
             <option value="$PROJECT_DIR$/p1111_preferencefragment" />
             <option value="$PROJECT_DIR$/p1121_dinamicactionbar" />
             <option value="$PROJECT_DIR$/p1131_actionmode" />
+            <option value="$PROJECT_DIR$/p1151_multiplescreen" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
