@@ -2,7 +2,6 @@ package com.example.multiplescreen;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,7 +26,7 @@ public class DetailsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.details, container, false);
-        TextView tv = (TextView) v.findViewById(R.id.tvText);
+        TextView tv = v.findViewById(R.id.tvText);
         tv.setText(getResources().getStringArray(R.array.content)[getPosition()]);
         return v;
     }

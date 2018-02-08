@@ -12,12 +12,12 @@ public class TitlesFragment extends ListFragment {
         public void itemClick(int position);
     }
 
-    onItemClickListener listener;
+    private onItemClickListener listener;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(),
                 android.R.layout.simple_list_item_1, getResources()
                 .getStringArray(R.array.headers));
         setListAdapter(adapter);

@@ -7,7 +7,14 @@
     <fragment
         android:id="@+id/titles"
         android:name="com.example.multiplescreen.TitlesFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
     </fragment>
+    <FrameLayout
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
 </LinearLayout>
