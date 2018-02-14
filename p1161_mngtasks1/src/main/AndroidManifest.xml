@@ -9,37 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityA">
+        <activity
+            android:name=".ActivityA"
+            android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.ActivityA" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityB">
-            <intent-filter>
-                <action android:name="android.intent.action.ActivityB" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ActivityC">
+        <activity
+            android:name=".ActivityB"/>
+        <activity
+            android:name=".ActivityC" android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.ActivityC" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityD">
-            <intent-filter>
-                <action android:name="android.intent.action.ActivityD" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity
+            android:name=".ActivityD"
+            android:launchMode="singleTop"/>
     </application>
+    <uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
 
 </manifest>

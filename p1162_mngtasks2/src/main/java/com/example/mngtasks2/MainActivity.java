@@ -1,6 +1,7 @@
-package com.example.mngtasks1;
+package com.example.mngtasks2;
 
 import android.app.ActivityManager;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,7 +9,8 @@ import android.view.View;
 
 import java.util.List;
 
-public abstract class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
+
     final String LOG_TAG = "myLogs";
     List<ActivityManager.RunningTaskInfo> list;
     ActivityManager am;
@@ -17,6 +19,7 @@ public abstract class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         setTitle(getResources().getString(R.string.app_name) + " : " + getLocalClassName());
         am = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
     }
@@ -33,5 +36,7 @@ public abstract class MainActivity extends AppCompatActivity {
         }
     }
 
-    abstract public void onClick(View v);
+    public void onClick(View v) {
+        startActivity(new Intent("android.intent.action.ActivityC").addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET));
+    }
 }

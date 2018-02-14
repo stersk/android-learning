@@ -124,6 +124,7 @@
             <option value="$PROJECT_DIR$/p1131_actionmode" />
             <option value="$PROJECT_DIR$/p1151_multiplescreen" />
             <option value="$PROJECT_DIR$/p1161_mngtasks1" />
+            <option value="$PROJECT_DIR$/p1162_mngtasks2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
