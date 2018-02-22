@@ -120,6 +120,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1151_multiplescreen/p1151_multiplescreen.iml" filepath="$PROJECT_DIR$/p1151_multiplescreen/p1151_multiplescreen.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1161_mngtasks1/p1161_mngtasks1.iml" filepath="$PROJECT_DIR$/p1161_mngtasks1/p1161_mngtasks1.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1162_mngtasks2/p1162_mngtasks2.iml" filepath="$PROJECT_DIR$/p1162_mngtasks2/p1162_mngtasks2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1171_simplewidget/p1171_simplewidget.iml" filepath="$PROJECT_DIR$/p1171_simplewidget/p1171_simplewidget.iml" />
     </modules>
   </component>
 </project>
