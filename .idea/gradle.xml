@@ -126,6 +126,8 @@
             <option value="$PROJECT_DIR$/p1161_mngtasks1" />
             <option value="$PROJECT_DIR$/p1162_mngtasks2" />
             <option value="$PROJECT_DIR$/p1171_simplewidget" />
+            <option value="$PROJECT_DIR$/p1181_customwidget" />
+            <option value="$PROJECT_DIR$/p1191_pendingintent" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

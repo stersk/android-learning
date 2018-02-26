@@ -121,6 +121,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1161_mngtasks1/p1161_mngtasks1.iml" filepath="$PROJECT_DIR$/p1161_mngtasks1/p1161_mngtasks1.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1162_mngtasks2/p1162_mngtasks2.iml" filepath="$PROJECT_DIR$/p1162_mngtasks2/p1162_mngtasks2.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1171_simplewidget/p1171_simplewidget.iml" filepath="$PROJECT_DIR$/p1171_simplewidget/p1171_simplewidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1181_customwidget/p1181_customwidget.iml" filepath="$PROJECT_DIR$/p1181_customwidget/p1181_customwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1191_pendingintent/p1191_pendingintent.iml" filepath="$PROJECT_DIR$/p1191_pendingintent/p1191_pendingintent.iml" />
     </modules>
   </component>
 </project>
