@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Click widget</string>
+    <string name="config">Config</string>
+    <string name="update">Update</string>
+    <string name="count">Count</string>
+    <string name="google">Google</string>
+    <string name="ok">Ok</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
