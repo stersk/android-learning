@@ -130,6 +130,7 @@
             <option value="$PROJECT_DIR$/p1191_pendingintent" />
             <option value="$PROJECT_DIR$/p1201_clickwidget" />
             <option value="$PROJECT_DIR$/p1211_listwidget" />
+            <option value="$PROJECT_DIR$/p1251_viewpager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

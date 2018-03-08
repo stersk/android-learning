@@ -125,6 +125,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1191_pendingintent/p1191_pendingintent.iml" filepath="$PROJECT_DIR$/p1191_pendingintent/p1191_pendingintent.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1201_clickwidget/p1201_clickwidget.iml" filepath="$PROJECT_DIR$/p1201_clickwidget/p1201_clickwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1211_listwidget/p1211_listwidget.iml" filepath="$PROJECT_DIR$/p1211_listwidget/p1211_listwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1251_viewpager/p1251_viewpager.iml" filepath="$PROJECT_DIR$/p1251_viewpager/p1251_viewpager.iml" />
     </modules>
   </component>
 </project>

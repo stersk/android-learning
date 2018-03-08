@@ -1,8 +1,10 @@
 package com.example.listwidget;
 
+import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -17,6 +19,7 @@ public class MyWidget extends AppWidgetProvider {
     SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
     final String ACTION_ON_CLICK = "com.example.listwidget.itemonclick";
     final static String ITEM_POSITION = "item_position";
+    final String UPDATE_ALL_WIDGETS = "update_all_widgets";
 
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
@@ -25,6 +28,34 @@ public class MyWidget extends AppWidgetProvider {
         for (int i : appWidgetIds) {
             updateWidget(context, appWidgetManager, i);
         }
+    }
+
+    @Override
+    public void onEnabled(Context context) {
+        super.onEnabled(context);
+
+        // Update widgets by own schedule (60seconds)
+        // set updatePeriodMillis = 0 in metadata for disable system update
+        Intent intent = new Intent(context, MyWidget.class);
+        intent.setAction(UPDATE_ALL_WIDGETS);
+        PendingIntent pIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
+        AlarmManager alarmManager = (AlarmManager) context
+                .getSystemService(Context.ALARM_SERVICE);
+        alarmManager.setRepeating(AlarmManager.RTC, System.currentTimeMillis(),
+                60000, pIntent);
+    }
+
+    @Override
+    public void onDisabled(Context context) {
+        super.onDisabled(context);
+
+        // Update widgets by own schedule (60seconds)
+        Intent intent = new Intent(context, MyWidget.class);
+        intent.setAction(UPDATE_ALL_WIDGETS);
+        PendingIntent pIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
+        AlarmManager alarmManager = (AlarmManager) context
+                .getSystemService(Context.ALARM_SERVICE);
+        alarmManager.cancel(pIntent);
     }
 
     void updateWidget(Context context, AppWidgetManager appWidgetManager,
@@ -80,6 +111,18 @@ public class MyWidget extends AppWidgetProvider {
             if (itemPos != -1) {
                 Toast.makeText(context, "Clicked on item " + itemPos,
                         Toast.LENGTH_SHORT).show();
+            }
+        }
+
+        // Update widgets by own schedule (60seconds)
+        if (intent.getAction().equalsIgnoreCase(UPDATE_ALL_WIDGETS)) {
+            ComponentName thisAppWidget = new ComponentName(
+                    context.getPackageName(), getClass().getName());
+            AppWidgetManager appWidgetManager = AppWidgetManager
+                    .getInstance(context);
+            int ids[] = appWidgetManager.getAppWidgetIds(thisAppWidget);
+            for (int appWidgetID : ids) {
+                updateWidget(context, appWidgetManager, appWidgetID);
             }
         }
     }
