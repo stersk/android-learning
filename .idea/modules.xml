@@ -126,6 +126,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1201_clickwidget/p1201_clickwidget.iml" filepath="$PROJECT_DIR$/p1201_clickwidget/p1201_clickwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1211_listwidget/p1211_listwidget.iml" filepath="$PROJECT_DIR$/p1211_listwidget/p1211_listwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1251_viewpager/p1251_viewpager.iml" filepath="$PROJECT_DIR$/p1251_viewpager/p1251_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1261_mediaplayer/p1261_mediaplayer.iml" filepath="$PROJECT_DIR$/p1261_mediaplayer/p1261_mediaplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1271_soundpool/p1271_soundpool.iml" filepath="$PROJECT_DIR$/p1271_soundpool/p1271_soundpool.iml" />
     </modules>
   </component>
 </project>
