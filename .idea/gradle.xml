@@ -133,6 +133,7 @@
             <option value="$PROJECT_DIR$/p1251_viewpager" />
             <option value="$PROJECT_DIR$/p1261_mediaplayer" />
             <option value="$PROJECT_DIR$/p1271_soundpool" />
+            <option value="$PROJECT_DIR$/p1281_audiofocus" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

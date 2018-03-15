@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class MainActivity extends AppCompatActivity implements SoundPool.OnLoadCompleteListener {
 
     final String LOG_TAG = "myLogs";
-    final int MAX_STREAMS = 1;
+    final int MAX_STREAMS = 5;
 
     SoundPool sp;
     int soundIdShot;
@@ -44,15 +44,18 @@ public class MainActivity extends AppCompatActivity implements SoundPool.OnLoadC
     }
 
     public void onClick(View view) {
-        streamIDShot = sp.play(soundIdShot, 1, 1, 0, 10, 1);
-        Log.d(LOG_TAG, "streamIDShot = " + streamIDShot);
+        streamIDShot = sp.play(soundIdShot, 1, 0, 0, 9, 1);
+        streamIDExplosion = sp.play(soundIdExplosion, 0, 1, 0, 4, 1);
+
         try {
             TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        streamIDExplosion = sp.play(soundIdExplosion, 1, 1, 0, 0, 1);
-        Log.d(LOG_TAG, "streamIDExplosion = " + streamIDExplosion);    }
+
+        sp.setVolume(streamIDShot, 0, 1);
+        sp.setVolume(streamIDExplosion, 1, 0);
+    }
 
     @Override
     public void onLoadComplete(SoundPool soundPool, int sampleId, int status) {
