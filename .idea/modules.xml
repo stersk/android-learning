@@ -129,6 +129,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1261_mediaplayer/p1261_mediaplayer.iml" filepath="$PROJECT_DIR$/p1261_mediaplayer/p1261_mediaplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1271_soundpool/p1271_soundpool.iml" filepath="$PROJECT_DIR$/p1271_soundpool/p1271_soundpool.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1281_audiofocus/p1281_audiofocus.iml" filepath="$PROJECT_DIR$/p1281_audiofocus/p1281_audiofocus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1291_mediarecorder/p1291_mediarecorder.iml" filepath="$PROJECT_DIR$/p1291_mediarecorder/p1291_mediarecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1301_audiorecorder/p1301_audiorecorder.iml" filepath="$PROJECT_DIR$/p1301_audiorecorder/p1301_audiorecorder.iml" />
     </modules>
   </component>
 </project>
