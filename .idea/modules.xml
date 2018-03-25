@@ -131,6 +131,9 @@
       <module fileurl="file://$PROJECT_DIR$/p1281_audiofocus/p1281_audiofocus.iml" filepath="$PROJECT_DIR$/p1281_audiofocus/p1281_audiofocus.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1291_mediarecorder/p1291_mediarecorder.iml" filepath="$PROJECT_DIR$/p1291_mediarecorder/p1291_mediarecorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1301_audiorecorder/p1301_audiorecorder.iml" filepath="$PROJECT_DIR$/p1301_audiorecorder/p1301_audiorecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1311_cameraintent/p1311_cameraintent.iml" filepath="$PROJECT_DIR$/p1311_cameraintent/p1311_cameraintent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1321_camerascreen/p1321_camerascreen.iml" filepath="$PROJECT_DIR$/p1321_camerascreen/p1321_camerascreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1331_camerarecord/p1331_camerarecord.iml" filepath="$PROJECT_DIR$/p1331_camerarecord/p1331_camerarecord.iml" />
     </modules>
   </component>
 </project>
