@@ -139,6 +139,8 @@
             <option value="$PROJECT_DIR$/p1311_cameraintent" />
             <option value="$PROJECT_DIR$/p1321_camerascreen" />
             <option value="$PROJECT_DIR$/p1331_camerarecord" />
+            <option value="$PROJECT_DIR$/p1341_camerafeatures" />
+            <option value="$PROJECT_DIR$/p1351_loader" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

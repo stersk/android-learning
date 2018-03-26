@@ -134,6 +134,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1311_cameraintent/p1311_cameraintent.iml" filepath="$PROJECT_DIR$/p1311_cameraintent/p1311_cameraintent.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1321_camerascreen/p1321_camerascreen.iml" filepath="$PROJECT_DIR$/p1321_camerascreen/p1321_camerascreen.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1331_camerarecord/p1331_camerarecord.iml" filepath="$PROJECT_DIR$/p1331_camerarecord/p1331_camerarecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1341_camerafeatures/p1341_camerafeatures.iml" filepath="$PROJECT_DIR$/p1341_camerafeatures/p1341_camerafeatures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1351_loader/p1351_loader.iml" filepath="$PROJECT_DIR$/p1351_loader/p1351_loader.iml" />
     </modules>
   </component>
 </project>
