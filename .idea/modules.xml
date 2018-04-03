@@ -137,6 +137,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1341_camerafeatures/p1341_camerafeatures.iml" filepath="$PROJECT_DIR$/p1341_camerafeatures/p1341_camerafeatures.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1351_loader/p1351_loader.iml" filepath="$PROJECT_DIR$/p1351_loader/p1351_loader.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1361_cursorloader/p1361_cursorloader.iml" filepath="$PROJECT_DIR$/p1361_cursorloader/p1361_cursorloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1371_sensors/p1371_sensors.iml" filepath="$PROJECT_DIR$/p1371_sensors/p1371_sensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1372_acceleration/p1372_acceleration.iml" filepath="$PROJECT_DIR$/p1372_acceleration/p1372_acceleration.iml" />
     </modules>
   </component>
 </project>

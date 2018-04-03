@@ -142,6 +142,8 @@
             <option value="$PROJECT_DIR$/p1341_camerafeatures" />
             <option value="$PROJECT_DIR$/p1351_loader" />
             <option value="$PROJECT_DIR$/p1361_cursorloader" />
+            <option value="$PROJECT_DIR$/p1371_sensors" />
+            <option value="$PROJECT_DIR$/p1372_acceleration" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
