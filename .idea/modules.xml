@@ -139,6 +139,10 @@
       <module fileurl="file://$PROJECT_DIR$/p1361_cursorloader/p1361_cursorloader.iml" filepath="$PROJECT_DIR$/p1361_cursorloader/p1361_cursorloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1371_sensors/p1371_sensors.iml" filepath="$PROJECT_DIR$/p1371_sensors/p1371_sensors.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1372_acceleration/p1372_acceleration.iml" filepath="$PROJECT_DIR$/p1372_acceleration/p1372_acceleration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1373_orientation/p1373_orientation.iml" filepath="$PROJECT_DIR$/p1373_orientation/p1373_orientation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1381_location/p1381_location.iml" filepath="$PROJECT_DIR$/p1381_location/p1381_location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1391_googlemaps/p1391_googlemaps.iml" filepath="$PROJECT_DIR$/p1391_googlemaps/p1391_googlemaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" filepath="$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" />
     </modules>
   </component>
 </project>

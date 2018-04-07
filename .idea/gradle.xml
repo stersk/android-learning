@@ -144,6 +144,10 @@
             <option value="$PROJECT_DIR$/p1361_cursorloader" />
             <option value="$PROJECT_DIR$/p1371_sensors" />
             <option value="$PROJECT_DIR$/p1372_acceleration" />
+            <option value="$PROJECT_DIR$/p1373_orientation" />
+            <option value="$PROJECT_DIR$/p1381_location" />
+            <option value="$PROJECT_DIR$/p1391_googlemaps" />
+            <option value="$PROJECT_DIR$/p1401_googlemapsdraw" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
