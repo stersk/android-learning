@@ -143,6 +143,8 @@
       <module fileurl="file://$PROJECT_DIR$/p1381_location/p1381_location.iml" filepath="$PROJECT_DIR$/p1381_location/p1381_location.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1391_googlemaps/p1391_googlemaps.iml" filepath="$PROJECT_DIR$/p1391_googlemaps/p1391_googlemaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" filepath="$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1411_canvasview/p1411_canvasview.iml" filepath="$PROJECT_DIR$/p1411_canvasview/p1411_canvasview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1412_canvasviewviasurface/p1412_canvasviewviasurface.iml" filepath="$PROJECT_DIR$/p1412_canvasviewviasurface/p1412_canvasviewviasurface.iml" />
     </modules>
   </component>
 </project>
