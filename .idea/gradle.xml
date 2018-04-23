@@ -150,6 +150,10 @@
             <option value="$PROJECT_DIR$/p1401_googlemapsdraw" />
             <option value="$PROJECT_DIR$/p1411_canvasview" />
             <option value="$PROJECT_DIR$/p1412_canvasviewviasurface" />
+            <option value="$PROJECT_DIR$/p1421_drawingfigure" />
+            <option value="$PROJECT_DIR$/p1431_drawingpath" />
+            <option value="$PROJECT_DIR$/p1441_matrixtransform" />
+            <option value="$PROJECT_DIR$/p1451_matrixtransform2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

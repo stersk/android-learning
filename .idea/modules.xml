@@ -145,6 +145,10 @@
       <module fileurl="file://$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" filepath="$PROJECT_DIR$/p1401_googlemapsdraw/p1401_googlemapsdraw.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1411_canvasview/p1411_canvasview.iml" filepath="$PROJECT_DIR$/p1411_canvasview/p1411_canvasview.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1412_canvasviewviasurface/p1412_canvasviewviasurface.iml" filepath="$PROJECT_DIR$/p1412_canvasviewviasurface/p1412_canvasviewviasurface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1421_drawingfigure/p1421_drawingfigure.iml" filepath="$PROJECT_DIR$/p1421_drawingfigure/p1421_drawingfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1431_drawingpath/p1431_drawingpath.iml" filepath="$PROJECT_DIR$/p1431_drawingpath/p1431_drawingpath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" filepath="$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" filepath="$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" />
     </modules>
   </component>
 </project>
