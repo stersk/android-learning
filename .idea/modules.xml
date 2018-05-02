@@ -149,6 +149,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1431_drawingpath/p1431_drawingpath.iml" filepath="$PROJECT_DIR$/p1431_drawingpath/p1431_drawingpath.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" filepath="$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" filepath="$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1461_canvastransform/p1461_canvastransform.iml" filepath="$PROJECT_DIR$/p1461_canvastransform/p1461_canvastransform.iml" />
     </modules>
   </component>
 </project>

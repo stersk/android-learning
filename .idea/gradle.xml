@@ -154,6 +154,7 @@
             <option value="$PROJECT_DIR$/p1431_drawingpath" />
             <option value="$PROJECT_DIR$/p1441_matrixtransform" />
             <option value="$PROJECT_DIR$/p1451_matrixtransform2" />
+            <option value="$PROJECT_DIR$/p1461_canvastransform" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
