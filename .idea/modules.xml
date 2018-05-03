@@ -150,6 +150,9 @@
       <module fileurl="file://$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" filepath="$PROJECT_DIR$/p1441_matrixtransform/p1441_matrixtransform.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" filepath="$PROJECT_DIR$/p1451_matrixtransform2/p1451_matrixtransform2.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1461_canvastransform/p1461_canvastransform.iml" filepath="$PROJECT_DIR$/p1461_canvastransform/p1461_canvastransform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1471_region/p1471_region.iml" filepath="$PROJECT_DIR$/p1471_region/p1471_region.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" filepath="$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" filepath="$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" />
     </modules>
   </component>
 </project>
