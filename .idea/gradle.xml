@@ -158,6 +158,7 @@
             <option value="$PROJECT_DIR$/p1471_region" />
             <option value="$PROJECT_DIR$/p1481_canvasclip" />
             <option value="$PROJECT_DIR$/p1491_canvastext" />
+            <option value="$PROJECT_DIR$/p1501_pathmeasure" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

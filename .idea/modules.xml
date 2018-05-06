@@ -153,6 +153,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1471_region/p1471_region.iml" filepath="$PROJECT_DIR$/p1471_region/p1471_region.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" filepath="$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" filepath="$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1501_pathmeasure/p1501_pathmeasure.iml" filepath="$PROJECT_DIR$/p1501_pathmeasure/p1501_pathmeasure.iml" />
     </modules>
   </component>
 </project>
