@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-learning.iml" filepath="$PROJECT_DIR$/android-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0031_firstproject/p0031_firstproject.iml" filepath="$PROJECT_DIR$/p0031_firstproject/p0031_firstproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0041_basicviews/p0041_basicviews.iml" filepath="$PROJECT_DIR$/p0041_basicviews/p0041_basicviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0051_layoutfiles/p0051_layoutfiles.iml" filepath="$PROJECT_DIR$/p0051_layoutfiles/p0051_layoutfiles.iml" />
@@ -154,6 +155,9 @@
       <module fileurl="file://$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" filepath="$PROJECT_DIR$/p1481_canvasclip/p1481_canvasclip.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" filepath="$PROJECT_DIR$/p1491_canvastext/p1491_canvastext.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1501_pathmeasure/p1501_pathmeasure.iml" filepath="$PROJECT_DIR$/p1501_pathmeasure/p1501_pathmeasure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1511_pathefects/p1511_pathefects.iml" filepath="$PROJECT_DIR$/p1511_pathefects/p1511_pathefects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1512_picture/p1512_picture.iml" filepath="$PROJECT_DIR$/p1512_picture/p1512_picture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1513_colorfilter/p1513_colorfilter.iml" filepath="$PROJECT_DIR$/p1513_colorfilter/p1513_colorfilter.iml" />
     </modules>
   </component>
 </project>
