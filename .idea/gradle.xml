@@ -8,7 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/p0031_firstproject" />
             <option value="$PROJECT_DIR$/p0041_basicviews" />
             <option value="$PROJECT_DIR$/p0051_layoutfiles" />
@@ -161,8 +160,14 @@
             <option value="$PROJECT_DIR$/p1491_canvastext" />
             <option value="$PROJECT_DIR$/p1501_pathmeasure" />
             <option value="$PROJECT_DIR$/p1511_pathefects" />
-            <option value="$PROJECT_DIR$/p1512_picture" />
-            <option value="$PROJECT_DIR$/p1513_colorfilter" />
+            <option value="$PROJECT_DIR$/p1521_picture" />
+            <option value="$PROJECT_DIR$/p1531_colorfilter" />
+            <option value="$PROJECT_DIR$/p1541_porterduff" />
+            <option value="$PROJECT_DIR$/p1551_porterduffcolorfilter" />
+            <option value="$PROJECT_DIR$/p1561_avoidxfermode" />
+            <option value="$PROJECT_DIR$/p1571_bitmapread" />
+            <option value="$PROJECT_DIR$/p1581_bitmapcreate" />
+            <option value="$PROJECT_DIR$/p1591_bitmapoptions" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
