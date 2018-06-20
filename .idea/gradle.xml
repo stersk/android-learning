@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/game_eatcircles" />
             <option value="$PROJECT_DIR$/p0031_firstproject" />
             <option value="$PROJECT_DIR$/p0041_basicviews" />
             <option value="$PROJECT_DIR$/p0051_layoutfiles" />
@@ -164,10 +165,16 @@
             <option value="$PROJECT_DIR$/p1531_colorfilter" />
             <option value="$PROJECT_DIR$/p1541_porterduff" />
             <option value="$PROJECT_DIR$/p1551_porterduffcolorfilter" />
-            <option value="$PROJECT_DIR$/p1561_avoidxfermode" />
             <option value="$PROJECT_DIR$/p1571_bitmapread" />
             <option value="$PROJECT_DIR$/p1581_bitmapcreate" />
             <option value="$PROJECT_DIR$/p1591_bitmapoptions" />
+            <option value="$PROJECT_DIR$/p1601_bitmaplarge" />
+            <option value="$PROJECT_DIR$/p1611_bitmapcache" />
+            <option value="$PROJECT_DIR$/p1621_drawableshape" />
+            <option value="$PROJECT_DIR$/p1631_drawablexml" />
+            <option value="$PROJECT_DIR$/p1641_drawablexml2" />
+            <option value="$PROJECT_DIR$/p1651_shaders" />
+            <option value="$PROJECT_DIR$/p1661_owndrawable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
