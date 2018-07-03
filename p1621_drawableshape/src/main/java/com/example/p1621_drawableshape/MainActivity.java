@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+// TODO: Цей урок чомусь недороблений - доробити
 
     ImageView imageView;
     TextView textView;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private void setDrawable() {
         //imageView.setImageResource(R.drawable.shape);
 
-        textView.setBackgroundResource(R.drawable.shape_padding);
+        //textView.setBackgroundResource(R.drawable.shape_padding);
+
     }
 }

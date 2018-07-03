@@ -175,6 +175,21 @@
             <option value="$PROJECT_DIR$/p1641_drawablexml2" />
             <option value="$PROJECT_DIR$/p1651_shaders" />
             <option value="$PROJECT_DIR$/p1661_owndrawable" />
+            <option value="$PROJECT_DIR$/p1671_savelayer" />
+            <option value="$PROJECT_DIR$/p1681_opengl" />
+            <option value="$PROJECT_DIR$/p1691_opengl_shader" />
+            <option value="$PROJECT_DIR$/p1701_opengl_primitives" />
+            <option value="$PROJECT_DIR$/p1711_opengl_color" />
+            <option value="$PROJECT_DIR$/p1721_opengl_perspective" />
+            <option value="$PROJECT_DIR$/p1731_opengl_view" />
+            <option value="$PROJECT_DIR$/p1741_opengl_model" />
+            <option value="$PROJECT_DIR$/p1751_opengl_texture" />
+            <option value="$PROJECT_DIR$/p1752_opengl_2_textures" />
+            <option value="$PROJECT_DIR$/p1753_opengl_simple_cube" />
+            <option value="$PROJECT_DIR$/p1761_opengl_cube" />
+            <option value="$PROJECT_DIR$/p1801_constrainlayoutintro" />
+            <option value="$PROJECT_DIR$/p1821_constrainlayoutchain" />
+            <option value="$PROJECT_DIR$/p1831_constrainsset" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

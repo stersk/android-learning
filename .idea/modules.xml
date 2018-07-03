@@ -170,6 +170,21 @@
       <module fileurl="file://$PROJECT_DIR$/p1641_drawablexml2/p1641_drawablexml2.iml" filepath="$PROJECT_DIR$/p1641_drawablexml2/p1641_drawablexml2.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1651_shaders/p1651_shaders.iml" filepath="$PROJECT_DIR$/p1651_shaders/p1651_shaders.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1661_owndrawable/p1661_owndrawable.iml" filepath="$PROJECT_DIR$/p1661_owndrawable/p1661_owndrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1671_savelayer/p1671_savelayer.iml" filepath="$PROJECT_DIR$/p1671_savelayer/p1671_savelayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1681_opengl/p1681_opengl.iml" filepath="$PROJECT_DIR$/p1681_opengl/p1681_opengl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1691_opengl_shader/p1691_opengl_shader.iml" filepath="$PROJECT_DIR$/p1691_opengl_shader/p1691_opengl_shader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1701_opengl_primitives/p1701_opengl_primitives.iml" filepath="$PROJECT_DIR$/p1701_opengl_primitives/p1701_opengl_primitives.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1711_opengl_color/p1711_opengl_color.iml" filepath="$PROJECT_DIR$/p1711_opengl_color/p1711_opengl_color.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1721_opengl_perspective/p1721_opengl_perspective.iml" filepath="$PROJECT_DIR$/p1721_opengl_perspective/p1721_opengl_perspective.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1731_opengl_view/p1731_opengl_view.iml" filepath="$PROJECT_DIR$/p1731_opengl_view/p1731_opengl_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1741_opengl_model/p1741_opengl_model.iml" filepath="$PROJECT_DIR$/p1741_opengl_model/p1741_opengl_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1751_opengl_texture/p1751_opengl_texture.iml" filepath="$PROJECT_DIR$/p1751_opengl_texture/p1751_opengl_texture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1752_opengl_2_textures/p1752_opengl_2_textures.iml" filepath="$PROJECT_DIR$/p1752_opengl_2_textures/p1752_opengl_2_textures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1753_opengl_simple_cube/p1753_opengl_simple_cube.iml" filepath="$PROJECT_DIR$/p1753_opengl_simple_cube/p1753_opengl_simple_cube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1761_opengl_cube/p1761_opengl_cube.iml" filepath="$PROJECT_DIR$/p1761_opengl_cube/p1761_opengl_cube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1801_constrainlayoutintro/p1801_constrainlayoutintro.iml" filepath="$PROJECT_DIR$/p1801_constrainlayoutintro/p1801_constrainlayoutintro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1821_constrainlayoutchain/p1821_constrainlayoutchain.iml" filepath="$PROJECT_DIR$/p1821_constrainlayoutchain/p1821_constrainlayoutchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" filepath="$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" />
     </modules>
   </component>
 </project>
