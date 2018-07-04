@@ -105,6 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1011_contentprovider/p1011_contentprovider.iml" filepath="$PROJECT_DIR$/p1011_contentprovider/p1011_contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1012_contentproviderclient/p1012_contentproviderclient.iml" filepath="$PROJECT_DIR$/p1012_contentproviderclient/p1012_contentproviderclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1020_touch/p1020_touch.iml" filepath="$PROJECT_DIR$/p1020_touch/p1020_touch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1020_touch/p1020_touch.iml" filepath="$PROJECT_DIR$/p1020_touch/p1020_touch.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" filepath="$PROJECT_DIR$/p1030_MULTITOUCH/p1030_MULTITOUCH.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" filepath="$PROJECT_DIR$/p1040_fragmentlifecycle/p1040_fragmentlifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" filepath="$PROJECT_DIR$/p1050_fragmentdynamic/p1050_fragmentdynamic.iml" />
@@ -184,7 +185,6 @@
       <module fileurl="file://$PROJECT_DIR$/p1761_opengl_cube/p1761_opengl_cube.iml" filepath="$PROJECT_DIR$/p1761_opengl_cube/p1761_opengl_cube.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1801_constrainlayoutintro/p1801_constrainlayoutintro.iml" filepath="$PROJECT_DIR$/p1801_constrainlayoutintro/p1801_constrainlayoutintro.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1821_constrainlayoutchain/p1821_constrainlayoutchain.iml" filepath="$PROJECT_DIR$/p1821_constrainlayoutchain/p1821_constrainlayoutchain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" filepath="$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" />
     </modules>
   </component>
 </project>
