@@ -190,6 +190,7 @@
             <option value="$PROJECT_DIR$/p1801_constrainlayoutintro" />
             <option value="$PROJECT_DIR$/p1821_constrainlayoutchain" />
             <option value="$PROJECT_DIR$/p1831_constrainsset" />
+            <option value="$PROJECT_DIR$/p1832_constrainsetclone" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
