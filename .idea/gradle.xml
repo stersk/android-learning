@@ -192,6 +192,7 @@
             <option value="$PROJECT_DIR$/p1831_constrainsset" />
             <option value="$PROJECT_DIR$/p1832_constrainsetclone" />
             <option value="$PROJECT_DIR$/p1841_androidnotification" />
+            <option value="$PROJECT_DIR$/p1851_androidnotificationactivities" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

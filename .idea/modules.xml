@@ -187,6 +187,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" filepath="$PROJECT_DIR$/p1831_constrainsset/p1831_constrainsset.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1832_constrainsetclone/p1832_constrainsetclone.iml" filepath="$PROJECT_DIR$/p1832_constrainsetclone/p1832_constrainsetclone.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1841_androidnotification/p1841_androidnotification.iml" filepath="$PROJECT_DIR$/p1841_androidnotification/p1841_androidnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1851_androidnotificationactivities/p1851_androidnotificationactivities.iml" filepath="$PROJECT_DIR$/p1851_androidnotificationactivities/p1851_androidnotificationactivities.iml" />
     </modules>
   </component>
 </project>
