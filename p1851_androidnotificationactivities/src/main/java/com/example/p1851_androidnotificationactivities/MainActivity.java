@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         notificationManager.notify(2, notification);
-
     }
 
     public void onNewMessageNotificationClick(View view) {
