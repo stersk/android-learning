@@ -194,6 +194,7 @@
             <option value="$PROJECT_DIR$/p1841_androidnotification" />
             <option value="$PROJECT_DIR$/p1851_androidnotificationactivities" />
             <option value="$PROJECT_DIR$/p1861_notificationextended" />
+            <option value="$PROJECT_DIR$/p1871_notificationbuttons" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

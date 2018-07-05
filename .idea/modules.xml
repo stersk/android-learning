@@ -189,6 +189,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1841_androidnotification/p1841_androidnotification.iml" filepath="$PROJECT_DIR$/p1841_androidnotification/p1841_androidnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1851_androidnotificationactivities/p1851_androidnotificationactivities.iml" filepath="$PROJECT_DIR$/p1851_androidnotificationactivities/p1851_androidnotificationactivities.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1861_notificationextended/p1861_notificationextended.iml" filepath="$PROJECT_DIR$/p1861_notificationextended/p1861_notificationextended.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1871_notificationbuttons/p1871_notificationbuttons.iml" filepath="$PROJECT_DIR$/p1871_notificationbuttons/p1871_notificationbuttons.iml" />
     </modules>
   </component>
 </project>
