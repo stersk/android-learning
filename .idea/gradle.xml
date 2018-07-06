@@ -197,6 +197,7 @@
             <option value="$PROJECT_DIR$/p1871_notificationbuttons" />
             <option value="$PROJECT_DIR$/p1881_notificationscustom" />
             <option value="$PROJECT_DIR$/p1891_notificationgrouping" />
+            <option value="$PROJECT_DIR$/p1901_notificationchannels" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
