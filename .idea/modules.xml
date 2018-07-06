@@ -191,6 +191,7 @@
       <module fileurl="file://$PROJECT_DIR$/p1861_notificationextended/p1861_notificationextended.iml" filepath="$PROJECT_DIR$/p1861_notificationextended/p1861_notificationextended.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1871_notificationbuttons/p1871_notificationbuttons.iml" filepath="$PROJECT_DIR$/p1871_notificationbuttons/p1871_notificationbuttons.iml" />
       <module fileurl="file://$PROJECT_DIR$/p1881_notificationscustom/p1881_notificationscustom.iml" filepath="$PROJECT_DIR$/p1881_notificationscustom/p1881_notificationscustom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p1891_notificationgrouping/p1891_notificationgrouping.iml" filepath="$PROJECT_DIR$/p1891_notificationgrouping/p1891_notificationgrouping.iml" />
     </modules>
   </component>
 </project>
